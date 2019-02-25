@@ -1,0 +1,318 @@
+{  
+  "horarios":[  
+     {  
+        "horaInicioFim":"18:55 - 19:45h",
+        "disciplinasPorDiaDeSemana":{  
+           "2":null,
+           "3":[  
+              {  
+                 "codigoDisciplina":57494,
+                 "nomeDisciplina":"Teoria das Estruturas I",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "4":[  
+              {  
+                 "codigoDisciplina":88822,
+                 "nomeDisciplina":"Desenho Arquitetônico",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "5":[  
+              {  
+                 "codigoDisciplina":88823,
+                 "nomeDisciplina":"Resistência dos Materiais",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "6":[  
+              {  
+                 "codigoDisciplina":88823,
+                 "nomeDisciplina":"Resistência dos Materiais",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "7":null
+        }
+     },
+     {  
+        "horaInicioFim":"19:45 - 20:35h",
+        "disciplinasPorDiaDeSemana":{  
+           "2":null,
+           "3":[  
+              {  
+                 "codigoDisciplina":57494,
+                 "nomeDisciplina":"Teoria das Estruturas I",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "4":[  
+              {  
+                 "codigoDisciplina":88822,
+                 "nomeDisciplina":"Desenho Arquitetônico",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "5":[  
+              {  
+                 "codigoDisciplina":88823,
+                 "nomeDisciplina":"Resistência dos Materiais",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "6":[  
+              {  
+                 "codigoDisciplina":88823,
+                 "nomeDisciplina":"Resistência dos Materiais",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "7":null
+        }
+     },
+     {  
+        "horaInicioFim":"20:55 - 21:45h",
+        "disciplinasPorDiaDeSemana":{  
+           "2":[  
+              {  
+                 "codigoDisciplina":88827,
+                 "nomeDisciplina":"Geologia",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "3":[  
+              {  
+                 "codigoDisciplina":57494,
+                 "nomeDisciplina":"Teoria das Estruturas I",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "4":[  
+              {  
+                 "codigoDisciplina":88822,
+                 "nomeDisciplina":"Desenho Arquitetônico",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA1",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Prática",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "5":[  
+              {  
+                 "codigoDisciplina":88925,
+                 "nomeDisciplina":"Projeto Interdisciplinar 4B",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "6":[  
+              {  
+                 "codigoDisciplina":88823,
+                 "nomeDisciplina":"Resistência dos Materiais",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "7":null
+        }
+     },
+     {  
+        "horaInicioFim":"21:45 - 22:35h",
+        "disciplinasPorDiaDeSemana":{  
+           "2":[  
+              {  
+                 "codigoDisciplina":88827,
+                 "nomeDisciplina":"Geologia",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "3":[  
+              {  
+                 "codigoDisciplina":57494,
+                 "nomeDisciplina":"Teoria das Estruturas I",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "4":[  
+              {  
+                 "codigoDisciplina":88822,
+                 "nomeDisciplina":"Desenho Arquitetônico",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA1",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Prática",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "5":[  
+              {  
+                 "codigoDisciplina":88925,
+                 "nomeDisciplina":"Projeto Interdisciplinar 4B",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "6":[  
+              {  
+                 "codigoDisciplina":88823,
+                 "nomeDisciplina":"Resistência dos Materiais",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"ECV4BN-COA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Contagem",
+                 "ePorData":false,
+                 "datas":[  
+
+                 ]
+              }
+           ],
+           "7":null
+        }
+     }
+  ]
+}

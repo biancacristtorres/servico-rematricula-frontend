@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Página Inicial Snapshot 1`] = `
+<vcontainer-stub tag="div">
+  <vlayout-stub tag="div" justify-center="" class="hidden-md-and-up">
+    <vflex-stub tag="div" xs12="" sm8="" class="text-xs-center grey--text text--darken-1 mt-4 subheading"><iframe src="https://www.youtube.com/embed/d-mW4beRnoo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" style="max-width: 100%;"></iframe></vflex-stub>
+  </vlayout-stub>
+  <vlayout-stub tag="div" justify-center="">
+    <vflex-stub tag="div" xs12="" sm6="" class="text-xs-center">
+      <vavatar-stub size="96px" tile="true"><img src="undefinedsvg/capelo.svg" alt="Capelo"></vavatar-stub> <span class="d-block grey--text text--darken-2 title mt-3">Novidades =)</span>
+    </vflex-stub>
+  </vlayout-stub>
+  <vlayout-stub tag="div" justify-center="" class="hidden-sm-and-down">
+    <vflex-stub tag="div" xs12="" sm8="" class="text-xs-center grey--text text--darken-1 mt-4 subheading"><iframe width="560" height="315" src="https://www.youtube.com/embed/d-mW4beRnoo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></vflex-stub>
+  </vlayout-stub>
+  <vlayout-stub tag="div" justify-center="" class="mt-4">
+    <vflex-stub tag="div" xs12="" sm6="">
+      <vbtn-stub activeclass="v-btn--active" block="true" large="true" tag="button" type="button" id="continuar" color="primary">Continuar</vbtn-stub>
+    </vflex-stub>
+  </vlayout-stub>
+</vcontainer-stub>
+`;

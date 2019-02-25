@@ -1,0 +1,230 @@
+[
+  {
+     "codigo":849561,
+     "codigoUnico":"849561",
+     "tipoCargaHoraria":"Prática",
+     "horariosParaExibicao":[
+        "Ter: 20:55 às 22:35"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:45:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:35:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Administração",
+     "campus":"Contagem",
+     "descricao":"AEM1BN-COA1",
+     "vagas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":143220,
+     "codigoPeriodicidade": 1,
+     "nomeDaDisciplina": "",
+     "eDoTurnoDoAluno": false
+  },
+  {
+     "codigo":849711,
+     "codigoUnico":"849711",
+     "tipoCargaHoraria":"Prática",
+     "horariosParaExibicao":[
+        "Seg: 20:55 às 22:35"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:45:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:35:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Direito",
+     "campus":"Contagem",
+     "descricao":"DIR1BN-COA1",
+     "vagas":-10,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":143220,
+     "codigoPeriodicidade": 1,
+     "nomeDaDisciplina": "",
+     "eDoTurnoDoAluno": true
+  },
+  {
+     "codigo":849780,
+     "codigoUnico":"849780",
+     "tipoCargaHoraria":"Prática",
+     "horariosParaExibicao":[
+        "Qui: 20:55 às 22:35"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:45:00"
+        },
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:35:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Enfermagem",
+     "campus":"Contagem",
+     "descricao":"ENF1BN-COA1",
+     "vagas":-4,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":143220,
+     "codigoPeriodicidade": 1,
+     "nomeDaDisciplina": "",
+     "eDoTurnoDoAluno": false
+  },
+  {
+     "codigo":849827,
+     "codigoUnico":"849827",
+     "tipoCargaHoraria":"Prática",
+     "horariosParaExibicao":[
+        "Seg: 18:55 às 20:35"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T18:55:00",
+           "horaFim":"0001-01-01T19:45:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T19:45:00",
+           "horaFim":"0001-01-01T20:35:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Engenharia Civil",
+     "campus":"Contagem",
+     "descricao":"ECV1BN-COA1",
+     "vagas":48,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":143220,
+     "codigoPeriodicidade": 1,
+     "nomeDaDisciplina": "",
+     "eDoTurnoDoAluno": true
+  },
+  {
+     "codigo":868210,
+     "codigoUnico":"868210",
+     "tipoCargaHoraria":"Prática",
+     "horariosParaExibicao":[
+        "Ter: 20:55 às 22:35"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:45:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:35:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Estética e Cosmética",
+     "campus":"Contagem",
+     "descricao":"ETC1BN-COA1",
+     "vagas":-2,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":143220,
+     "codigoPeriodicidade": 1,
+     "nomeDaDisciplina": "",
+     "eDoTurnoDoAluno": true
+  },
+  {
+     "codigo":873484,
+     "codigoUnico":"873484",
+     "tipoCargaHoraria":"Prática",
+     "horariosParaExibicao":[
+        "Qua: 18:55 às 20:35"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T18:55:00",
+           "horaFim":"0001-01-01T19:45:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T19:45:00",
+           "horaFim":"0001-01-01T20:35:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Biomedicina",
+     "campus":"Contagem",
+     "descricao":"BIO1BN-COA1",
+     "vagas":-8,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":143220,
+     "codigoPeriodicidade": 1,
+     "nomeDaDisciplina": "",
+     "eDoTurnoDoAluno": true
+  }
+]

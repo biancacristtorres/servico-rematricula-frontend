@@ -1,0 +1,10 @@
+- request:
+    url: ^/api/resumo$
+    query:
+      codigoAluno: '([0-9]+)'
+    headers:
+      authorization: ([0-9]+)
+  response:
+    headers:
+      content-type: application/json
+    file: ../responses/<% headers.authorization[1] %>/Resumo.json

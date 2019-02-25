@@ -1,0 +1,192 @@
+[
+  {
+     "codigo":863451,
+     "codigoUnico":"863451",
+     "tipoCargaHoraria":"Teórica",
+     "codigoTipoCargaHoraria":1,
+     "horariosParaExibicao":[
+        "Seg: 19:00 às 19:49",
+        "Seg: 19:00 às 20:40",
+        "Seg: 19:50 às 20:40",
+        "Sex: 19:00 às 19:49",
+        "Sex: 19:00 às 20:40",
+        "Sex: 19:50 às 20:40"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        },
+        {
+           "codigoDiaSemana":6,
+           "descricaoDiaSemana":"Sexta",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {
+           "codigoDiaSemana":6,
+           "descricaoDiaSemana":"Sexta",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {
+           "codigoDiaSemana":6,
+           "descricaoDiaSemana":"Sexta",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        },
+        {
+           "codigoDiaSemana":6,
+           "descricaoDiaSemana":"Sexta",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Administração",
+     "campus":"Estoril",
+     "descricao":"AEM2CN-ESA",
+     "codigoPeriodicidade":1,
+     "vagas":12,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":133519,
+     "nomeDaDisciplina":"Matemática Financeira",
+     "eDoTurnoDoAluno": true
+  },
+  {
+     "codigo":863655,
+     "codigoUnico":"863655",
+     "tipoCargaHoraria":"Teórica",
+     "codigoTipoCargaHoraria":1,
+     "horariosParaExibicao":[
+        "Ter: 19:00 às 20:40",
+        "Qui: 20:55 às 22:34"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        },
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Administração",
+     "campus":"Cristiano Machado",
+     "descricao":"AEM2CN-CMA",
+     "codigoPeriodicidade":1,
+     "vagas":28,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":133519,
+     "nomeDaDisciplina":"Matemática Financeira",
+     "eDoTurnoDoAluno": false
+  },
+  {
+     "codigo":869946,
+     "codigoUnico":"869946",
+     "tipoCargaHoraria":"Teórica",
+     "codigoTipoCargaHoraria":1,
+     "horariosParaExibicao":[
+        "Ter: 20:55 às 22:34",
+        "Qui: 19:00 às 20:40"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Superior de Tecnologia em Gestão Financeira",
+     "campus":"Cristiano Machado",
+     "descricao":"GFI1AN-CMA",
+     "codigoPeriodicidade":1,
+     "vagas":2,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":133519,
+     "nomeDaDisciplina":"Matemática Financeira",
+     "eDoTurnoDoAluno": true
+  }
+]

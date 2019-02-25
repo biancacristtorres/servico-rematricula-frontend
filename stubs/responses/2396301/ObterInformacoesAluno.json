@@ -1,0 +1,21 @@
+{
+  "campus": "Estoril",
+  "codigoAluno": 2396301,
+  "codigoInstituicao": 1,
+  "codigoPeriodoLetivo": "3699",
+  "contratoEstaAssinado": false,
+  "contratoEstaLiberado": true,
+  "curso": "Pedagogia",
+  "email": "sabrina@teste.com",
+  "estaNoSoftLaunch": true,
+  "instituicao": "Centro Universitário de Belo Horizonte",
+  "nomeSocial": "Sabrina Perreira Caracas",
+  "numeroMatricula": "11915358",
+  "periodoLetivo": "2019/1",
+  "possuiPendenciasDocumentacao": true,
+  "possuiPendenciasFinanceiras": false,
+  "regularidade": "Irregular",
+  "telefone": "",
+   "codigoPeriodicidade": 1,
+   "codigoMarca": 1
+}

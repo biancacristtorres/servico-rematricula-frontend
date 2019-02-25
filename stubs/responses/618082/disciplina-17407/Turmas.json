@@ -1,0 +1,76 @@
+[  
+  {  
+     "codigo":863523,
+     "codigoUnico":"863523-863524",
+     "tipoCargaHoraria":"Teórica",
+     "codigoTipoCargaHoraria":1,
+     "horariosParaExibicao":[  
+        "Seg: 19:00 às 19:49",
+        "Seg: 19:00 às 20:40",
+        "Seg: 19:50 às 20:40"
+     ],
+     "horariosDeTurmaSemanal":[  
+        {  
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {  
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {  
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        },
+        {  
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[  
+
+     ],
+     "curso":"Administração",
+     "campus":"Cristiano Machado",
+     "descricao":"AEM4BN-CMA",
+     "codigoPeriodicidade":1,
+     "vagas":6,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[  
+        {  
+           "codigo":863524,
+           "tipoCargaHoraria":"Estudos Autônomos",
+           "codigoTipoCargaHoraria":98,
+           "horariosParaExibicao":[  
+
+           ],
+           "horariosDeTurmaSemanal":[  
+
+           ],
+           "horariosDeTurmaPorData":[  
+
+           ],
+           "curso":"Administração",
+           "campus":"Cristiano Machado",
+           "descricao":"AEM4BN-CMA1",
+           "vagas":6,
+           "eTurmaPorData":false,
+           "nomeDaDisciplina":"Seminário de Trabalho de Curso"
+        }
+     ],
+     "codigoDaDisciplina":17407,
+     "nomeDaDisciplina":"Seminário de Trabalho de Curso",
+     "eDoTurnoDoAluno": false
+  }
+]

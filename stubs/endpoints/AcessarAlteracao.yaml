@@ -1,0 +1,10 @@
+- request:
+    url: ^/api/Matricula/([0-9]+)/Status$
+    method: GET
+    headers:
+      authorization: ([0-9]+)
+  response:
+    status: 200
+    headers:
+      content-type: application/json
+    file: ../responses/<% headers.authorization[1] %>/Status.json

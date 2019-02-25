@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componente de Assinar Contrato Snapshot 1`] = `
+<vbtn-stub activeclass="v-btn--active" large="true" tag="button" type="button" id="assinar-contrato" color="primary" loading="true">
+  Li, concordo e aceito os termos propostos
+</vbtn-stub>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Página de Aguardando Rematrícula snapshot 1`] = `
+<vcontainer-stub tag="div">
+  <vlayout-stub tag="div" justify-center="">
+    <vflex-stub tag="div" xs12="" sm6="" class="text-xs-center">
+      <vavatar-stub size="96px" tile="true"><img src="undefinedsvg/capelo.svg" alt="Capelo"></vavatar-stub> <span class="d-block grey--text text--darken-2 title mt-3">
+        Agora é só esperar!
+      </span>
+    </vflex-stub>
+  </vlayout-stub>
+  <vlayout-stub tag="div" justify-center="">
+    <vflex-stub tag="div" xs12="" sm8="" class="text-xs-center grey--text text--darken-1 mt-4 subheading">
+      <p>
+        Durante a sua rematrícula, você terá acesso aos seus horários detalhadamente.
+        Estamos analisando as disciplinas que você demonstrou interesse.
+      </p>
+    </vflex-stub>
+  </vlayout-stub>
+</vcontainer-stub>
+`;

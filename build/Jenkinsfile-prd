@@ -1,0 +1,378 @@
+pipeline {
+  agent any
+  stages{
+    stage ('Validate Params')
+	{
+		steps {  
+			script {
+			  if (!validateTag()) {
+				  currentBuild.result = 'FAILURE'
+				  error("Parâmetros inválidos.")
+			  }
+			} 
+		}
+	}
+    stage ('Restore')
+    {
+      steps{
+        script {
+            notifySlack('STARTED', 'Rematricula - Frontend')
+            sh 'npm install'
+        }
+      }
+    }
+    stage ('SonarQube Analysis')
+    {
+      steps{
+        withSonarQubeEnv('sonar-scanner') {
+          sh '/var/cicd/sonar-scanner/bin/sonar-scanner -Dsonar.projectKey='+getAppName()+' -Dsonar.sources=src/ -Dsonar.projectVersion=' + getTagVersion() 
+        }
+      }
+    }
+    // stage('Quality Gate'){
+    //   steps{
+    //     script{
+    //       def qualitygate = waitForQualityGate()
+    //       if (qualitygate.status != "OK") {
+    //         error "Pipeline aborted due to quality gate coverage failure: ${qualitygate.status}"
+    //       }
+    //     }
+    //   }
+    // }
+    stage ('Unit Tests')
+    {
+      steps{
+        script {
+          try {
+            sh 'npm run test:unit'
+          } catch (e) {
+              currentBuild.result = 'FAILURE'
+              throw e
+          } finally {
+              notifySlack(currentBuild.result, 'Rematricula - Frontend Unit Tests')
+          }
+        }
+      }
+    }
+    stage ('Acceptance Tests')
+    {
+      steps{
+        script {
+          try {
+            sh 'docker-compose up --build --exit-code-from run_at'
+          } catch (e) {
+              currentBuild.result = 'FAILURE'
+              throw e
+          } finally {
+              sh 'docker-compose down'
+              notifySlack(currentBuild.result, 'DEV Frontend Acceptance Tests')
+          }
+        }
+      }
+    }
+    stage('Create Release Notes')
+    {
+      steps {
+        script {
+          createReleaseNotes()
+        }
+      }
+    }
+    stage ('Build')
+    {
+      steps{
+        sh 'npm run build'
+      }
+    }
+    stage ('Build and pull docker image')
+    {
+      steps{
+        script {
+          try {            
+            buildAndPushImage(getTagVersion())
+          } catch (e) {
+              currentBuild.result = 'FAILURE'
+              throw e
+          } finally {
+              notifySlack(currentBuild.result, 'Rematricula - Frontend Build')
+          }
+        }
+      }
+    }
+    stage ('Deploy Produção')
+    {
+      steps {
+        script {
+          try {
+              createDeployment('2', getTagVersion(),'producao')
+              sh('kubectl --kubeconfig /var/cicd/kubeconfig/config-clusterprd --namespace producao apply -f build/Deployment-Version.yml')
+          } catch (e) {
+              currentBuild.result = 'FAILURE'
+              throw e
+          } finally {
+              notifySlack(currentBuild.result, 'Deploy')
+          }
+        }
+      }
+    }
+  }
+  post {
+    failure {
+      script {
+        // Send an email always on failure
+        emailext (
+          subject: "FALHA: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
+          body: """
+          <p>FALHA: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
+          <p>Destalhes no console: "<a href="${env.BUILD_URL}">${env.JOB_NAME} [${env.BUILD_NUMBER}]</a>"</p>
+          <p>Descrição: ${cause.shortDescription}</p>
+          """,
+          recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']],
+          to: 'anima_devs@ciandt.com'
+        )
+      }
+    }
+    changed {
+      script {
+        if (currentBuild.currentResult == 'FAILURE') { // Other values: SUCCESS, UNSTABLE
+          // Send an email only if the build status has changed from green/unstable to red
+          emailext (
+            subject: "QUEBRA DE BUILD: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
+            body: """
+            <p>QUEBRA: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
+            <p>Destalhes no console: "<a href="${env.BUILD_URL}">${env.JOB_NAME} [${env.BUILD_NUMBER}]</a>"</p>
+            <p>Descrição: ${cause.shortDescription}</p>
+            """,
+            recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']],
+            to: 'anima_devs@ciandt.com'
+          )
+        }
+      }
+    }
+  }
+}
+
+def getAppName() {
+  return 'servico-rematricula-frontend'
+}
+
+def getVersion() {
+  def fileData = readFile('build/version.txt')
+  def versionTag = fileData =~ '(.+)'
+  versionTag ? versionTag[0][1] : '0.0.1-unversioned'
+}
+
+// Create deployment file...
+def createDeployment(replicas, version, enviromnent) {
+  def host = createHostName(enviromnent)
+	def fileContent = readFile('build/Deployment.yml')    
+    fileContent = fileContent.replace('#REPLICAS#', replicas)
+	fileContent = fileContent.replace('#VERSION#', version)
+    fileContent = fileContent.replace('#HOST#', host)
+    fileContent = fileContent.replace('#APP_NAME#', getAppName())
+	writeFile(file: 'build/Deployment-Version.yml', text: fileContent)
+}
+
+def createHostName(enviromnent) {
+  def hostname
+  switch (enviromnent) {
+    case 'homologacao':
+      hostname = 'cloud-hml'
+      break
+    case 'producao':
+      hostname = 'cloud'
+      break
+    default:
+      hostname = 'cloud-dev'
+      break
+  }
+
+  return hostname + '.animaeducacao.com.br'
+}
+
+def updateVersionFile() {
+  // LER O ARQUIVO
+  def versionFile = readFile('static/version.tpl.html')
+
+  // SETAR AS VARIAVEIS
+  GIT_BRANCH = sh (
+      script: 'git rev-parse --abbrev-ref HEAD',
+      returnStdout: true
+  ).trim()
+
+  GIT_HASH = sh (
+      script: 'git rev-parse HEAD',
+      returnStdout: true
+  ).trim()
+
+
+  GIT_VERSION = sh (
+      script: 'git rev-list --all --count',
+      returnStdout: true
+  ).trim()
+  // REPLACE DE VARIAVEIS
+  versionFile = versionFile.replace('#GIT_VERSION#', GIT_VERSION)
+  versionFile = versionFile.replace('#GIT_HASH#', GIT_HASH)
+  versionFile = versionFile.replace('#GIT_BRANCH#', GIT_BRANCH)
+  // GRAVAR O ARQUIVO
+  writeFile(file: 'src/static/version.html', text: versionFile)
+}
+
+def getTagVersion() {
+  return params.TAG_VERSION
+}
+
+def validateTag() {
+  try{
+      // Valida se a tag existe
+      sh(script: "git rev-parse ${getTagVersion()}", returnStdout: true)?.trim()
+      // Valida padrão da tag
+      def isValid = getTagVersion() ==~ /[0-9]+\.[0-9]+\.[0-9]+/
+      return isValid
+  } catch(Exception ex) {
+      return false
+  }
+}
+
+/** @return The tag name, or `null` if the current commit isn't a tag. */
+String gitTagName() {
+  commit = getCommit()
+  if (commit) {
+      try{
+          desc = sh(script: "git describe --tags ${commit}", returnStdout: true)?.trim()
+          if (isTag(desc)) {
+              return desc
+          }
+      } catch(Exception ex) {
+          echo 'Não tem TAG'
+      }
+  }
+  return null
+}
+
+/** @return The tag message, or `null` if the current commit isn't a tag. */
+String gitTagMessage() {
+  name = gitTagName()
+  msg = sh(script: "git tag -n10000 -l ${name}", returnStdout: true)?.trim()
+  if (msg) {
+      return msg.substring(name.size()+1, msg.size())
+  }
+  return null
+}
+
+String getCommit() {
+  return sh(script: 'git rev-parse HEAD', returnStdout: true)?.trim()
+}
+
+String getCommitAbrev() {
+    return sh(script: 'git rev-parse --short HEAD', returnStdout: true)?.trim()
+}
+
+def buildAndPushImage(version){
+  withDockerRegistry([registry: [url: 'https://anima.azurecr.io', credentialsId: 'animacrcred']]) {
+    def img = docker.build('anima.azurecr.io/'+ getAppName() +':' + version, '--build-arg PACKAGE_VERSION=' + version + ' ./build')
+    img.push()
+  }
+
+  if(currentBuild.result == null) {
+    currentBuild.result = 'SUCCESS'
+  }  
+}
+
+def notifySlack(String buildStatus, String environmentName) {
+    // Build status of null means success.
+    buildStatus = buildStatus ?: 'SUCCESS'
+
+    def color
+
+    if (buildStatus == 'STARTED') {
+        color = '#D4DADF'
+    } else if (buildStatus == 'SUCCESS') {
+        color = '#339900'
+    } else if (buildStatus == 'UNSTABLE') {
+        color = '#FFFE89'
+    } else {
+        color = '#FF3300'
+    }
+
+    def msg = "${buildStatus}: `${env.JOB_NAME}` `${environmentName}` #${env.BUILD_NUMBER}:\n${env.BUILD_URL}\nChanges:\n" + getChangeString()
+
+    if(buildStatus == 'STARTED'){
+        passedBuilds = []
+
+        lastSuccessfulBuild(passedBuilds, currentBuild);
+
+        def changeLog = getChangeLog(passedBuilds);
+
+        msg = msg + "\n*Changelog last build success*:\n" + changeLog
+    }
+
+    slackSend(color: color, message: msg)
+}
+
+def createReleaseNotes() {
+  def releaseNotesItemTempFile =  readFile('static/item-releasenotes.tpl.html')
+  def releaseNotesTempFile =  readFile('static/releasenotes.tpl.html')
+  def releaseNotesFile =  'static/releasenotes.html'
+
+  def hash = getCommitAbrev()
+
+  descReleaseNotes = sh(script: "git log -n 15 --pretty=format:'<li>%h - %aN - %s</li>'", returnStdout: true)?.trim()
+
+  // Substituicao de dados no arquivo
+  releaseNotesItemTempFile = releaseNotesItemTempFile.replace('#VERSION#', hash)
+  releaseNotesItemTempFile = releaseNotesItemTempFile.replace('#HASH#', hash)
+  releaseNotesItemTempFile = releaseNotesItemTempFile.replace('#CHANGES#', descReleaseNotes)
+
+  releaseNotesTempFile = releaseNotesTempFile.replace('#CONTENT', releaseNotesItemTempFile)
+
+  // GRAVAR O ARQUIVO
+  writeFile(file: releaseNotesFile, text: releaseNotesTempFile)
+}
+
+@NonCPS
+def getChangeString() {
+    MAX_MSG_LEN = 100
+    def changeString = ""
+
+    echo "Gathering SCM changes"
+    def changeLogSets = currentBuild.changeSets
+    for (int i = 0; i < changeLogSets.size(); i++) {
+        def entries = changeLogSets[i].items
+        for (int j = 0; j < entries.length; j++) {
+            def entry = entries[j]
+            truncated_msg = entry.msg.take(MAX_MSG_LEN)
+            changeString += " - ${truncated_msg} [${entry.author}]\n"
+        }
+    }
+
+    if (!changeString) {
+        changeString = " - No new changes"
+    }
+
+    return changeString
+}
+
+def lastSuccessfulBuild(passedBuilds, build) {
+  if ((build != null) && (build.result != 'SUCCESS')) {
+      passedBuilds.add(build)
+      lastSuccessfulBuild(passedBuilds, build.getPreviousBuild())
+   }
+}
+
+@NonCPS
+def getChangeLog(passedBuilds) {
+    def log = ""
+    for (int x = 0; x < passedBuilds.size(); x++) {
+        def currentBuild = passedBuilds[x];
+        def changeLogSets = currentBuild.rawBuild.changeSets
+        for (int i = 0; i < changeLogSets.size(); i++) {
+            def entries = changeLogSets[i].items
+            for (int j = 0; j < entries.length; j++) {
+                def entry = entries[j]
+                log += " - ${entry.msg} [${entry.author}]\n"
+            }
+        }
+    }
+    return log;
+}

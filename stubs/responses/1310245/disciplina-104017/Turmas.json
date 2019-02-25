@@ -1,0 +1,139 @@
+[
+  {
+     "codigo":849955,
+     "codigoUnico":"849955-849956",
+     "tipoCargaHoraria":"Ensino a Distância",
+     "horariosParaExibicao":[
+
+     ],
+     "horariosDeTurmaSemanal":[
+
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Engenharia Mecânica",
+     "campus":"Contagem",
+     "descricao":"EME4BN-COA",
+     "vagas":40,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+        {
+           "codigo":849956,
+           "tipoCargaHoraria":"Prática",
+           "horariosParaExibicao":[
+
+           ],
+           "horariosDeTurmaSemanal":[
+
+           ],
+           "horariosDeTurmaPorData":[
+              {
+                 "codigoDiaSemana":2,
+                 "datasParaExibicao":[
+                    "18/02/2019 de 18:55:00 às 20:35:00",
+                    "11/03/2019 de 18:55:00 às 20:35:00",
+                    "25/03/2019 de 18:55:00 às 20:35:00",
+                    "08/04/2019 de 18:55:00 às 20:35:00",
+                    "22/04/2019 de 18:55:00 às 20:35:00",
+                    "13/05/2019 de 18:55:00 às 20:35:00",
+                    "27/05/2019 de 18:55:00 às 20:35:00",
+                    "17/06/2019 de 18:55:00 às 20:35:00"
+                 ],
+                 "datas":[
+                    {
+                       "data":"2019-02-18T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-02-18T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    },
+                    {
+                       "data":"2019-03-11T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-03-11T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    },
+                    {
+                       "data":"2019-03-25T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-03-25T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    },
+                    {
+                       "data":"2019-04-08T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-04-08T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    },
+                    {
+                       "data":"2019-04-22T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-04-22T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    },
+                    {
+                       "data":"2019-05-13T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-05-13T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    },
+                    {
+                       "data":"2019-05-27T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-05-27T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    },
+                    {
+                       "data":"2019-06-17T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-06-17T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    }
+                 ]
+              }
+           ],
+           "curso":"Engenharia Mecânica",
+           "campus":"Contagem",
+           "descricao":"EME4BN-COA1",
+           "vagas":40,
+           "eTurmaPorData":true
+        }
+     ],
+     "codigoDaDisciplina":104017,
+     "codigoPeriodicidade": 1,
+     "eDoTurnoDoAluno": false
+  }
+]

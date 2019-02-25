@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`layout > Página Default Snapshot 1`] = `
+<vapp-stub id="app" class="grey lighten-2 app-rematricula">
+  <cabecalho-stub titulo="Rematrícula"></cabecalho-stub>
+  <vcontent-stub tag="main">
+    <router-view></router-view>
+  </vcontent-stub>
+  <!---->
+</vapp-stub>
+`;

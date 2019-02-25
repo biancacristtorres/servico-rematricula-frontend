@@ -1,0 +1,9 @@
+- request:
+    url: ^/api/Matricula/([0-9]+)/Carregamento$
+    method: POST
+    headers:
+      authorization: ([0-9]+)
+  response:
+    status: 200
+    file: ../responses/<% headers.authorization[1] %>/MiniGrade.json
+

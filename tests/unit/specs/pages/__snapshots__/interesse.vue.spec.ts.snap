@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Página de Interesse snapshot 1`] = `
+<vcontainer-stub tag="div">
+  <vlayout-stub tag="div" justify-center="">
+    <vflex-stub tag="div" xs12="" sm6="" class="text-xs-center">
+      <vavatar-stub size="96px" tile="true"><img src="undefinedsvg/warning.svg" alt="Alerta"></vavatar-stub> <span class="d-block grey--text text--darken-2 title">
+        Disciplinas pendentes
+      </span>
+    </vflex-stub>
+  </vlayout-stub>
+  <vlayout-stub tag="div" justify-center="">
+    <vflex-stub tag="div" xs12="" sm8="" class="text-xs-center grey--text text--darken-1 mt-3 subheading">
+      Atenção. Este interesse não garante vagas no seu próximo módulo,
+      porém nos ajudará a buscar vagas nestas disciplinas.
+    </vflex-stub>
+  </vlayout-stub>
+  <vlayout-stub tag="div" justify-center="">
+    <vflex-stub tag="div" xs12="" sm6="">
+      <selecaodedisciplinas-stub></selecaodedisciplinas-stub>
+      <selecaodecondicaoespecial-stub quantidadededisciplinascominteresse="0"></selecaodecondicaoespecial-stub>
+      <alertaderegras-stub></alertaderegras-stub>
+      <continuar-stub condicoes="" disciplinas=""></continuar-stub>
+    </vflex-stub>
+  </vlayout-stub>
+</vcontainer-stub>
+`;

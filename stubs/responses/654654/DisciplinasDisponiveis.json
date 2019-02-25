@@ -1,0 +1,10 @@
+[
+  {
+     "codigo":48011,
+     "situacao":1,
+     "nome":"Língua Brasileira dos Sinais - Libras",
+     "modulo":null,
+     "eDisciplinaEletiva":false,
+     "possuiEquivalenciaDoisPorUm": false
+  }
+]

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Página de Contrato Snapshot 1`] = `
+<div>
+  <vcontainer-stub tag="div">
+    <vlayout-stub tag="div">
+      <vflex-stub tag="div" xs12="" class="text-xs-center">
+        <vprogresscircular-stub indeterminate="true" rotate="0" size="70" width="7" value="0" color="primary" class="mt-5"></vprogresscircular-stub>
+      </vflex-stub>
+    </vlayout-stub>
+  </vcontainer-stub>
+  <div style="display: none;">
+    <vcontainer-stub tag="div">
+      <vlayout-stub tag="div" class="container-pdf">
+        <vflex-stub tag="div" xs12="">
+          <arquivodecontrato-stub></arquivodecontrato-stub>
+        </vflex-stub>
+      </vlayout-stub>
+    </vcontainer-stub>
+    <vfooter-stub height="80" app="" fixed="" class="justify-center elevation-10">
+      <assinarcontrato-stub></assinarcontrato-stub>
+    </vfooter-stub>
+  </div>
+</div>
+`;

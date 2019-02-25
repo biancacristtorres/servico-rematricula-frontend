@@ -1,0 +1,21 @@
+{
+  "codigoAluno": 618082,
+  "codigoPeriodoLetivo": "3699",
+  "nomeSocial": "Alessandra Moreira Costa",
+  "instituicao": "Centro Universitário de Belo Horizonte",
+  "codigoInstituicao": 1,
+  "campus": "Estoril",
+  "curso": "Administração",
+  "regularidade": "Irregular",
+  "periodoLetivo": "2019/1",
+  "possuiPendenciasFinanceiras": false,
+  "possuiPendenciasDocumentacao": false,
+  "contratoEstaAssinado": true,
+  "contratoEstaLiberado": true,
+  "email": "alessandra@teste.com",
+  "telefone": "",
+  "numeroMatricula": "11422558",
+  "estaNoSoftLaunch": true,
+  "codigoPeriodicidade": 1,
+  "codigoMarca": 1
+}

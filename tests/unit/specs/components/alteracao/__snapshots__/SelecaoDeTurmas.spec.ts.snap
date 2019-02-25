@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componente de Seleção de Turmas Snapshot 1`] = `
+<div class="grey lighten-4">
+  <div id="turmas-disciplina-1">
+    <table>
+      <tbody>
+        <tr>
+          <td class="td-radio text-xs-center"><i aria-hidden="true" id="nenhuma-opcao-1" value="true" class="v-icon v-icon--link material-icons theme--light primary--text" style="font-size: 16px;">
+
+              radio_button_checked
+            </i></td>
+          <td><label for="nenhuma-opcao-1">
+              Nenhuma das opções
+            </label></td>
+        </tr>
+      </tbody>
+    </table>
+    <!---->
+    <div class="cabecalho-turmas pa-3"><i aria-hidden="true" class="v-icon mr-3 material-icons theme--light">
+        school
+      </i> <span class="body-1">
+    Turmas disponíveis
+  </span></div>
+    <div class="container-tabela" id="disciplina-turmas">
+      <table id="disciplina-com-turmas" cellspacing="0" cellpadding="0">
+        <thead id="turmas-cabecalho" class="primary white--text text-xs-center">
+          <tr>
+            <th></th>
+            <!---->
+            <th>Dia e Horário</th>
+            <th>Campus</th>
+            <th>Curso</th>
+            <th>Turma</th>
+            <th>Vagas</th>
+            <!---->
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="horario-turma text-xs-center">
+            <td rowspan="1" class="td-radio"><i aria-hidden="true" id="turma-3" class="v-icon selecionar-turma v-icon--link material-icons theme--light primary--text" style="font-size: 16px;">
+
+                radio_button_unchecked
+              </i></td>
+            <!---->
+            <td>
+              <li class="turmas-semanais">
+                Quarta
+              </li>
+              <p class="ma-0">
+                ()
+              </p>
+            </td>
+            <td>
+              Buritis
+            </td>
+            <td>
+              CC
+            </td>
+            <td>
+              X48
+            </td>
+            <td>
+              10
+            </td>
+            <!---->
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="cabecalho-turmas pa-3"><i aria-hidden="true" class="v-icon mr-3 material-icons theme--light">
+        school
+      </i> <span class="body-1">
+    Disciplinas equivalentes
+  </span> <span class="v-tooltip v-tooltip--bottom"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"> <span>
+      Disciplinas equivalentes são lecionadas em outros cursos,
+      porém contém a mesma base da disciplina que você deve cursar.
+    </span></div><span><i aria-hidden="true" class="v-icon ml-3 material-icons theme--light" style="font-size: 16px;">
+      help
+    </i></span></span>
+  </div>
+  <div class="container-tabela" id="disciplina-turmas-equivalentes">
+    <table id="disciplina-com-turmas" cellspacing="0" cellpadding="0">
+      <thead id="turmas-cabecalho" class="primary white--text text-xs-center">
+        <tr>
+          <th></th>
+          <th class="coluna-disciplina">
+            Disciplina
+          </th>
+          <th>Dia e Horário</th>
+          <th>Campus</th>
+          <th>Curso</th>
+          <th>Turma</th>
+          <th>Vagas</th>
+          <!---->
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="horario-turma text-xs-center">
+          <td rowspan="1" class="td-radio"><i aria-hidden="true" id="turma-1" class="v-icon selecionar-turma v-icon--link material-icons theme--light primary--text" style="font-size: 16px;">
+
+              radio_button_unchecked
+            </i></td>
+          <td rowspan="1">
+
+          </td>
+          <td>
+            <li class="turmas-semanais">
+              Terça
+            </li>
+            <p class="ma-0">
+              ()
+            </p>
+          </td>
+          <td>
+            Aimorés
+          </td>
+          <td>
+            CC
+          </td>
+          <td>
+            X40
+          </td>
+          <td>
+            3
+          </td>
+          <!---->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!---->
+</div>
+</div>
+`;

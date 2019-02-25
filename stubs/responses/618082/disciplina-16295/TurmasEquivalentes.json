@@ -1,0 +1,550 @@
+[
+  {
+     "codigo":863353,
+     "codigoUnico":"863353",
+     "tipoCargaHoraria":"Teórica",
+     "codigoTipoCargaHoraria":1,
+     "horariosParaExibicao":[
+        "Ter: 09:35 às 11:14",
+        "Qua: 09:35 às 11:14"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T09:35:00",
+           "horaFim":"0001-01-01T10:24:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T10:25:00",
+           "horaFim":"0001-01-01T11:14:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T09:35:00",
+           "horaFim":"0001-01-01T10:24:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T10:25:00",
+           "horaFim":"0001-01-01T11:14:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Administração",
+     "campus":"Cristiano Machado",
+     "descricao":"AEM1AM-CMA",
+     "codigoPeriodicidade":1,
+     "vagas":1,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":135243,
+     "nomeDaDisciplina":"Contabilidade",
+     "eDoTurnoDoAluno": false
+  },
+  {
+     "codigo":863672,
+     "codigoUnico":"863672",
+     "tipoCargaHoraria":"Teórica",
+     "codigoTipoCargaHoraria":1,
+     "horariosParaExibicao":[
+        "Ter: 20:55 às 21:44",
+        "Ter: 20:55 às 22:34",
+        "Ter: 21:45 às 22:34",
+        "Qua: 20:55 às 21:44",
+        "Qua: 20:55 às 22:34",
+        "Qua: 21:45 às 22:34"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Administração",
+     "campus":"Cristiano Machado",
+     "descricao":"AEM1AN-CMA",
+     "codigoPeriodicidade":1,
+     "vagas":1,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":135243,
+     "nomeDaDisciplina":"Contabilidade",
+     "eDoTurnoDoAluno": false
+  },
+  {
+     "codigo":864562,
+     "codigoUnico":"864562",
+     "tipoCargaHoraria":"Teórica",
+     "codigoTipoCargaHoraria":1,
+     "horariosParaExibicao":[
+        "Qua: 19:00 às 19:49",
+        "Qua: 19:00 às 20:40",
+        "Qua: 19:50 às 20:40",
+        "Qui: 20:55 às 21:44",
+        "Qui: 20:55 às 22:34",
+        "Qui: 21:45 às 22:34"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        },
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Ciências Contábeis",
+     "campus":"Estoril",
+     "descricao":"CCT1AN-ESA",
+     "codigoPeriodicidade":1,
+     "vagas":0,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":135243,
+     "nomeDaDisciplina":"Contabilidade",
+     "eDoTurnoDoAluno": true
+  },
+  {
+     "codigo":864595,
+     "codigoUnico":"864595",
+     "tipoCargaHoraria":"Teórica",
+     "codigoTipoCargaHoraria":1,
+     "horariosParaExibicao":[
+        "Seg: 19:00 às 19:49",
+        "Seg: 19:00 às 20:40",
+        "Seg: 19:50 às 20:40",
+        "Sex: 20:55 às 21:44",
+        "Sex: 20:55 às 22:34",
+        "Sex: 21:45 às 22:34"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        },
+        {
+           "codigoDiaSemana":6,
+           "descricaoDiaSemana":"Sexta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":6,
+           "descricaoDiaSemana":"Sexta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":6,
+           "descricaoDiaSemana":"Sexta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":6,
+           "descricaoDiaSemana":"Sexta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Ciências Contábeis",
+     "campus":"Cristiano Machado",
+     "descricao":"CCT1AN-CMA",
+     "codigoPeriodicidade":1,
+     "vagas":0,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":135243,
+     "nomeDaDisciplina":"Contabilidade",
+     "eDoTurnoDoAluno": false
+  },
+  {
+     "codigo":868607,
+     "codigoUnico":"868607",
+     "tipoCargaHoraria":"Teórica",
+     "codigoTipoCargaHoraria":1,
+     "horariosParaExibicao":[
+        "Seg: 20:55 às 21:44",
+        "Seg: 20:55 às 21:44",
+        "Seg: 20:55 às 21:44",
+        "Seg: 20:55 às 21:44",
+        "Seg: 20:55 às 21:44",
+        "Seg: 20:55 às 22:34",
+        "Seg: 21:45 às 22:34",
+        "Seg: 21:45 às 22:34",
+        "Seg: 21:45 às 22:34",
+        "Seg: 21:45 às 22:34",
+        "Seg: 21:45 às 22:34",
+        "Qua: 20:55 às 21:44",
+        "Qua: 20:55 às 21:44",
+        "Qua: 20:55 às 21:44",
+        "Qua: 20:55 às 21:44",
+        "Qua: 20:55 às 21:44",
+        "Qua: 20:55 às 22:34",
+        "Qua: 21:45 às 22:34",
+        "Qua: 21:45 às 22:34",
+        "Qua: 21:45 às 22:34",
+        "Qua: 21:45 às 22:34",
+        "Qua: 21:45 às 22:34"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Superior de Tecnologia em Gestão Comercial",
+     "campus":"Cristiano Machado",
+     "descricao":"GCM1AN-CMA",
+     "codigoPeriodicidade":1,
+     "vagas":0,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":135243,
+     "nomeDaDisciplina":"Contabilidade",
+     "eDoTurnoDoAluno": true
+  },
+  {
+     "codigo":869957,
+     "codigoUnico":"869957",
+     "tipoCargaHoraria":"Teórica",
+     "codigoTipoCargaHoraria":1,
+     "horariosParaExibicao":[
+        "Qua: 19:00 às 20:40",
+        "Qui: 19:00 às 20:40"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        },
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Superior de Tecnologia em Segurança Pública",
+     "campus":"Cristiano Machado",
+     "descricao":"SEU1AN-CMA",
+     "codigoPeriodicidade":1,
+     "vagas":1,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":135243,
+     "nomeDaDisciplina":"Contabilidade",
+     "eDoTurnoDoAluno": false
+  }
+]

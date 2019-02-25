@@ -1,0 +1,24 @@
+{
+  "disciplinasPendentes": [
+  {
+    "codigo": 1,
+    "nome": "Cálculo Diferencial",
+    "interesseManifestado": false
+  },
+  {
+    "codigo": 2,
+    "nome": "Geometria Analítica e Álgebra Linear",
+    "interesseManifestado": false
+  },
+  {
+    "codigo": 3,
+    "nome": "Desenho Arquitetônico",
+    "interesseManifestado": false
+  },
+  {
+    "codigo": 4,
+    "nome": "Resistência dos Materiais",
+    "interesseManifestado": true
+  }
+  ]
+}

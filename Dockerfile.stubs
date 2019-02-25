@@ -1,0 +1,8 @@
+FROM node:alpine
+
+WORKDIR /usr/src/app
+COPY ./stubs /usr/src/app/stubs
+RUN npm install -g stubby
+RUN npm install stubby glob js-yaml express http-proxy-middleware jwt-decode
+EXPOSE 54888
+CMD node stubs/index.js

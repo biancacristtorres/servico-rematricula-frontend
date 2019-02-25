@@ -1,0 +1,302 @@
+{
+  "horarios":[
+     {
+        "horaInicioFim":"19:00 - 19:49h",
+        "disciplinasPorDiaDeSemana":{
+           "2":[
+              {
+                 "codigoDisciplina":85135,
+                 "nomeDisciplina":"Projeto Interdisciplinar 2B",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"HIL2BN-CMA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Cristiano Machado",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "3":[
+              {
+                 "codigoDisciplina":107705,
+                 "nomeDisciplina":"História da Arte",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"HIL2BN-CMA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Cristiano Machado",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "4":[
+              {
+                 "codigoDisciplina":107597,
+                 "nomeDisciplina":"Língua Brasileira de Sinais - LIBRAS",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"HIL2BN-CMA1",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Prática",
+                 "campus":"Cristiano Machado",
+                 "ePorData":true,
+                 "datas":[
+                    "20/02/2019",
+                    "13/03/2019",
+                    "27/03/2019",
+                    "10/04/2019",
+                    "24/04/2019",
+                    "15/05/2019",
+                    "29/05/2019",
+                    "19/06/2019"
+                 ]
+              }
+           ],
+           "5":null,
+           "6":[
+              {
+                 "codigoDisciplina":107703,
+                 "nomeDisciplina":"História Regional",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"HIL2BN-CMA",
+                 "status":2,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Cristiano Machado",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "7":null
+        }
+     },
+     {
+        "horaInicioFim":"19:50 - 20:40h",
+        "disciplinasPorDiaDeSemana":{
+           "2":[
+              {
+                 "codigoDisciplina":85135,
+                 "nomeDisciplina":"Projeto Interdisciplinar 2B",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"HIL2BN-CMA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Cristiano Machado",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "3":[
+              {
+                 "codigoDisciplina":107705,
+                 "nomeDisciplina":"História da Arte",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"HIL2BN-CMA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Cristiano Machado",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "4":[
+              {
+                 "codigoDisciplina":107597,
+                 "nomeDisciplina":"Língua Brasileira de Sinais - LIBRAS",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"HIL2BN-CMA1",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Prática",
+                 "campus":"Cristiano Machado",
+                 "ePorData":true,
+                 "datas":[
+                    "20/02/2019",
+                    "13/03/2019",
+                    "27/03/2019",
+                    "10/04/2019",
+                    "24/04/2019",
+                    "15/05/2019",
+                    "29/05/2019",
+                    "19/06/2019"
+                 ]
+              }
+           ],
+           "5":null,
+           "6":[
+              {
+                 "codigoDisciplina":107703,
+                 "nomeDisciplina":"História Regional",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"HIL2BN-CMA1",
+                 "status":2,
+                 "descricaoTipoCargaHoraria":"Prática",
+                 "campus":"Cristiano Machado",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "7":null
+        }
+     },
+     {
+        "horaInicioFim":"20:55 - 21:44h",
+        "disciplinasPorDiaDeSemana":{
+           "2":[
+              {
+                 "codigoDisciplina":107703,
+                 "nomeDisciplina":"História Regional",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"HIL2BN-CMA",
+                 "status":2,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Cristiano Machado",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "3":null,
+           "4":[
+              {
+                 "codigoDisciplina":107705,
+                 "nomeDisciplina":"História da Arte",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"HIL2BN-CMA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Cristiano Machado",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "5":[
+              {
+                 "codigoDisciplina":107706,
+                 "nomeDisciplina":"História Moderna",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"HIL2BN-CMA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Cristiano Machado",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "6":[
+              {
+                 "codigoDisciplina":107706,
+                 "nomeDisciplina":"História Moderna",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"HIL2BN-CMA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Cristiano Machado",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "7":null
+        }
+     },
+     {
+        "horaInicioFim":"21:45 - 22:34h",
+        "disciplinasPorDiaDeSemana":{
+           "2":[
+              {
+                 "codigoDisciplina":107703,
+                 "nomeDisciplina":"História Regional",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"HIL2BN-CMA",
+                 "status":2,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Cristiano Machado",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "3":null,
+           "4":[
+              {
+                 "codigoDisciplina":107705,
+                 "nomeDisciplina":"História da Arte",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"HIL2BN-CMA1",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Prática",
+                 "campus":"Cristiano Machado",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "5":[
+              {
+                 "codigoDisciplina":107706,
+                 "nomeDisciplina":"História Moderna",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"HIL2BN-CMA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Cristiano Machado",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "6":[
+              {
+                 "codigoDisciplina":107706,
+                 "nomeDisciplina":"História Moderna",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"HIL2BN-CMA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Cristiano Machado",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "7":null
+        }
+     }
+  ]
+}

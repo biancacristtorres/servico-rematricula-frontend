@@ -1,0 +1,106 @@
+[
+  {  
+    "codigo":84588,
+    "situacao":1,
+    "nome":"Eletiva EDF VI",
+    "modulo":"5A",
+    "eDisciplinaEletiva":true,
+    "possuiEquivalenciaDoisPorUm": false
+  },
+  {
+     "codigo":56199,
+     "situacao":1,
+     "nome":"Negócios Internacionais",
+     "modulo":"4B",
+     "eDisciplinaEletiva":false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {
+     "codigo":17407,
+     "situacao":1,
+     "nome":"Seminário de Trabalho de Curso",
+     "modulo":"4B",
+     "eDisciplinaEletiva":false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {
+     "codigo":15266,
+     "situacao":5,
+     "nome":"Administração Financeira",
+     "modulo":"4A",
+     "eDisciplinaEletiva":false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {
+     "codigo":18486,
+     "situacao":5,
+     "nome":"Gestão Integrada da Cadeia de Suprimento",
+     "modulo":"4A",
+     "eDisciplinaEletiva":false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {
+     "codigo":56200,
+     "situacao":5,
+     "nome":"Gestão Tributária",
+     "modulo":"4A",
+     "eDisciplinaEletiva":false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {
+     "codigo":56203,
+     "situacao":5,
+     "nome":"Gestão de Projetos",
+     "modulo":"4A",
+     "eDisciplinaEletiva":false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {
+     "codigo":18485,
+     "situacao":5,
+     "nome":"Gestão de Tecnologias e de Sistemas de Informação",
+     "modulo":"4A",
+     "eDisciplinaEletiva":false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {
+     "codigo":84671,
+     "situacao":1,
+     "nome":"Metodos Quantitativos Aplicados à Administração",
+     "modulo":"3B",
+     "eDisciplinaEletiva":false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {
+     "codigo":16295,
+     "situacao":1,
+     "nome":"Contabilidade",
+     "modulo":"2A",
+     "eDisciplinaEletiva":false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {
+     "codigo":56187,
+     "situacao":1,
+     "nome":"Gestão de Pessoas",
+     "modulo":"2A",
+     "eDisciplinaEletiva":false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {
+     "codigo":84418,
+     "situacao":1,
+     "nome":"Economia",
+     "modulo":"1B",
+     "eDisciplinaEletiva":false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {
+     "codigo":84429,
+     "situacao":1,
+     "nome":"Matemática Financeira",
+     "modulo":"1B",
+     "eDisciplinaEletiva":false,
+     "possuiEquivalenciaDoisPorUm": false
+  }
+]

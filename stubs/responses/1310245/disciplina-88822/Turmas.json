@@ -1,0 +1,69 @@
+[  
+  {  
+     "codigo":849842,
+     "codigoUnico":"849842-849843",
+     "tipoCargaHoraria":"Teórica",
+     "horariosParaExibicao":[  
+        "Qua: 18:55 às 20:35"
+     ],
+     "horariosDeTurmaSemanal":[  
+        {  
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T18:55:00",
+           "horaFim":"0001-01-01T19:45:00"
+        },
+        {  
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T19:45:00",
+           "horaFim":"0001-01-01T20:35:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[  
+
+     ],
+     "curso":"Engenharia Civil",
+     "campus":"Contagem",
+     "descricao":"ECV4BN-COA",
+     "vagas":41,
+     "eTurmaAtual":true,
+     "eTurmaPorData":false,
+     "complementares":[  
+        {  
+           "codigo":849843,
+           "tipoCargaHoraria":"Prática",
+           "horariosParaExibicao":[  
+              "Qua: 20:55 às 22:35"
+           ],
+           "horariosDeTurmaSemanal":[  
+              {  
+                 "codigoDiaSemana":4,
+                 "descricaoDiaSemana":"Quarta",
+                 "horaInicio":"0001-01-01T20:55:00",
+                 "horaFim":"0001-01-01T21:45:00"
+              },
+              {  
+                 "codigoDiaSemana":4,
+                 "descricaoDiaSemana":"Quarta",
+                 "horaInicio":"0001-01-01T21:45:00",
+                 "horaFim":"0001-01-01T22:35:00"
+              }
+           ],
+           "horariosDeTurmaPorData":[  
+
+           ],
+           "curso":"Engenharia Civil",
+           "campus":"Contagem",
+           "descricao":"ECV4BN-COA1",
+           "vagas":41,
+           "eTurmaPorData":false,
+           "nomeDaDisciplina": ""
+        }
+     ],
+     "codigoDaDisciplina":88822,
+     "codigoPeriodicidade": 1,
+     "nomeDaDisciplina": "",
+     "eDoTurnoDoAluno": true
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "campus": "Contagem",
+  "codigoAluno": 1289897,
+  "codigoInstituicao": 4,
+  "codigoPeriodoLetivo": "3691",
+  "contratoEstaAssinado": true,
+  "contratoEstaLiberado": true,
+  "curso": "Engenharia Civil",
+  "email": "joao@teste.com",
+  "estaNoSoftLaunch": true,
+  "instituicao": "Faculdade Una de Contagem",
+  "nomeSocial": "João Gabriel Dias Rossi",
+  "numeroMatricula": "41613444",
+  "periodoLetivo": "2019/1",
+  "possuiPendenciasDocumentacao": false,
+  "possuiPendenciasFinanceiras": false,
+  "regularidade": "Irregular",
+  "telefone": "",
+  "codigoPeriodicidade": 1,
+  "codigoMarca": 1
+}

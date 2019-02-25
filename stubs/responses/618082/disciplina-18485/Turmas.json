@@ -1,0 +1,122 @@
+[
+  {
+     "codigo":863404,
+     "codigoUnico":"863404",
+     "tipoCargaHoraria":"Ensino a Distância",
+     "codigoTipoCargaHoraria":109,
+     "horariosParaExibicao":[
+
+     ],
+     "horariosDeTurmaSemanal":[
+
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Administração",
+     "campus":"Estoril",
+     "descricao":"AEM4AN-ESB",
+     "codigoPeriodicidade":1,
+     "vagas":39,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":true,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":18485,
+     "nomeDaDisciplina":"Gestão de Tecnologias e de Sistemas de Informação",
+     "eDoTurnoDoAluno": true
+  },
+  {
+     "codigo":871940,
+     "codigoUnico":"871940",
+     "tipoCargaHoraria":"Ensino a Distância",
+     "codigoTipoCargaHoraria":109,
+     "horariosParaExibicao":[
+
+     ],
+     "horariosDeTurmaSemanal":[
+
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Ciências Contábeis",
+     "campus":"Estoril",
+     "descricao":"CCT4AN-ESB",
+     "codigoPeriodicidade":1,
+     "vagas":42,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":18485,
+     "nomeDaDisciplina":"Gestão de Tecnologias e de Sistemas de Informação",
+     "eDoTurnoDoAluno": true
+  },
+  {
+     "codigo":879246,
+     "codigoUnico":"879246",
+     "tipoCargaHoraria":"Ensino a Distância",
+     "codigoTipoCargaHoraria":109,
+     "horariosParaExibicao":[
+
+     ],
+     "horariosDeTurmaSemanal":[
+
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Administração",
+     "campus":"Estoril",
+     "descricao":"AEM4AN-ESA",
+     "codigoPeriodicidade":1,
+     "vagas":32,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":18485,
+     "nomeDaDisciplina":"Gestão de Tecnologias e de Sistemas de Informação",
+     "eDoTurnoDoAluno": false
+  },
+  {
+     "codigo":879247,
+     "codigoUnico":"879247",
+     "tipoCargaHoraria":"Ensino a Distância",
+     "codigoTipoCargaHoraria":109,
+     "horariosParaExibicao":[
+
+     ],
+     "horariosDeTurmaSemanal":[
+
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Administração",
+     "campus":"Cristiano Machado",
+     "descricao":"AEM4AN-CMA",
+     "codigoPeriodicidade":1,
+     "vagas":21,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":18485,
+     "nomeDaDisciplina":"Gestão de Tecnologias e de Sistemas de Informação",
+     "eDoTurnoDoAluno": false
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+     "codigo":849846,
+     "codigoUnico":"849846-849847",
+     "tipoCargaHoraria":"Teórica",
+     "horariosParaExibicao":[
+        "Qui: 20:55 às 22:35"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:45:00"
+        },
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:35:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Engenharia Civil",
+     "campus":"Contagem",
+     "descricao":"ECV4BN-COA",
+     "vagas":41,
+     "eTurmaAtual":true,
+     "eTurmaPorData":false,
+     "complementares":[
+        {
+           "codigo":849847,
+           "tipoCargaHoraria":"Estudos Independentes",
+           "horariosParaExibicao":[
+
+           ],
+           "horariosDeTurmaSemanal":[
+
+           ],
+           "horariosDeTurmaPorData":[
+
+           ],
+           "curso":"Engenharia Civil",
+           "campus":"Contagem",
+           "descricao":"ECV4BN-COA1",
+           "vagas":41,
+           "eTurmaPorData":false,
+           "nomeDaDisciplina": ""
+        }
+     ],
+     "codigoDaDisciplina":88925,
+     "codigoPeriodicidade": 1,
+     "nomeDaDisciplina": "",
+     "eDoTurnoDoAluno": true
+  },
+  {
+     "codigo":849893,
+     "codigoUnico":"849893-849894",
+     "tipoCargaHoraria":"Teórica",
+     "horariosParaExibicao":[
+        "Qua: 20:55 às 22:35"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:45:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:35:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Engenharia de Produção",
+     "campus":"Contagem",
+     "descricao":"EPR4BN-COA",
+     "vagas":50,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+        {
+           "codigo":849894,
+           "tipoCargaHoraria":"Estudos Independentes",
+           "horariosParaExibicao":[
+
+           ],
+           "horariosDeTurmaSemanal":[
+
+           ],
+           "horariosDeTurmaPorData":[
+
+           ],
+           "curso":"Engenharia de Produção",
+           "campus":"Contagem",
+           "descricao":"EPR4BN-COA1",
+           "vagas":50,
+           "eTurmaPorData":false,
+           "nomeDaDisciplina": ""
+        }
+     ],
+     "codigoDaDisciplina":88925,
+     "codigoPeriodicidade": 1,
+     "nomeDaDisciplina": "",
+     "eDoTurnoDoAluno": false
+  },
+  {
+     "codigo":849950,
+     "codigoUnico":"849950-849951",
+     "tipoCargaHoraria":"Teórica",
+     "horariosParaExibicao":[
+        "Ter: 20:55 às 22:35"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:45:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:35:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Engenharia Mecânica",
+     "campus":"Contagem",
+     "descricao":"EME4BN-COA",
+     "vagas":40,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+        {
+           "codigo":849951,
+           "tipoCargaHoraria":"Estudos Independentes",
+           "horariosParaExibicao":[
+
+           ],
+           "horariosDeTurmaSemanal":[
+
+           ],
+           "horariosDeTurmaPorData":[
+
+           ],
+           "curso":"Engenharia Mecânica",
+           "campus":"Contagem",
+           "descricao":"EME4BN-COA1",
+           "vagas":40,
+           "eTurmaPorData":false,
+           "nomeDaDisciplina": ""
+        }
+     ],
+     "codigoDaDisciplina":88925,
+     "codigoPeriodicidade": 1,
+     "nomeDaDisciplina": "",
+     "eDoTurnoDoAluno": true
+  },
+  {
+     "codigo":868154,
+     "codigoUnico":"868154-868155",
+     "tipoCargaHoraria":"Teórica",
+     "horariosParaExibicao":[
+        "Seg: 20:55 às 22:35"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:45:00"
+        },
+        {
+           "codigoDiaSemana":2,
+           "descricaoDiaSemana":"Segunda",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:35:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Engenharia Elétrica",
+     "campus":"Contagem",
+     "descricao":"EEL4BN-COA",
+     "vagas":51,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+        {
+           "codigo":868155,
+           "tipoCargaHoraria":"Estudos Independentes",
+           "horariosParaExibicao":[
+
+           ],
+           "horariosDeTurmaSemanal":[
+
+           ],
+           "horariosDeTurmaPorData":[
+
+           ],
+           "curso":"Engenharia Elétrica",
+           "campus":"Contagem",
+           "descricao":"EEL4BN-COA1",
+           "vagas":51,
+           "eTurmaPorData":false,
+           "nomeDaDisciplina": ""
+        }
+     ],
+     "codigoDaDisciplina":88925,
+     "codigoPeriodicidade": 1,
+     "nomeDaDisciplina": "",
+     "eDoTurnoDoAluno": false
+  }
+]

@@ -1,0 +1,51 @@
+Alessandra:
+  nome: Alessandra
+  codigoAluno: '618082'
+  descricaoDaPersona: 'É uma aluna que possui mais de três disciplinas pendentes, 
+    sendo que ela foi reprovada em todas essas disciplinas'
+  
+João:
+  nome: João
+  codigoAluno: '1310245'
+  descricaoDaPersona: 'É um aluno que possui entre uma e três disciplinas pendentes, 
+    sendo que ele pode ter sido reprovado ou ainda não cursou alguma delas'
+
+Rafaela:
+  nome: Rafaela
+  codigoAluno: '654654'
+  descricaoDaPersona: 'É uma aluna que está formando e somente possui disciplinas pendentes'
+
+Ricardo:
+  nome: Ricardo
+  codigoAluno: '2002699'
+  descricaoDaPersona: 'É um aluno que não possui disciplinas pendentes, isto é:
+    disciplinas a cursar e disciplinas repovadas em módulos anteriores'
+
+Jorge:
+  nome: Jorge
+  codigoAluno: '2279075'
+  descricaoDaPersona: 'É um aluno que não possui contrato de matrícula assinado, possui
+    pendências financeiras e não possui nenhuma pendência de documentação'
+
+Manuela:
+  nome: Manuela
+  codigoAluno: '2279688'
+  descricaoDaPersona: 'É uma aluna que não possui contrato de matrícula assinado e não possui
+    pendências financeiras e não possui nenhuma pendência de documentação'
+
+Sabrina:
+  nome: Sabrina
+  codigoAluno: '2396301'
+  descricaoDaPersona: 'É uma aluna que não possui contrato de matrícula assinado, não possui
+    pendências financeiras mas possui pendências de documentos'
+
+Mateus:
+  nome: Mateus
+  codigoAluno: '460761'
+  descricaoDaPersona: 'É um aluno que acessou o sistema antes do período de rematrícula para
+    verificar a tela de interesse e suas pendências para o próximo período letivo'
+
+Amanda:
+  nome: Amanda
+  codigoAluno: '594134'
+  descricaoDaPersona: 'É uma aluna que acessou o sistema mas não está no softlaunch'

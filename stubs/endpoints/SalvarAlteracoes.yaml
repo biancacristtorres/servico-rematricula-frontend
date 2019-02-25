@@ -1,0 +1,17 @@
+- request:
+    url: ^/api/Matricula/1310245$
+    method: POST
+  response:
+    status: 200
+- request:
+    url: ^/api/Matricula/618082$
+    method: POST
+  response:
+    status: 409
+    body: "QUEBRA_MODULO"
+- request:
+    url: ^/api/Matricula/654654$
+    method: POST
+  response:
+    status: 409
+    body: "MINIMO_1_DISCIPLINAS"

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Página de Interesse snapshot 1`] = `
+<vcontainer-stub tag="div" class="pa-0">
+  <vlayout-stub tag="div" row="" wrap="" class="pa-0">
+    <vflex-stub tag="div" xs12="" md8="" class="px-0 pt-4">
+      <vsystembar-stub>
+        <vtoolbartitle-stub class="subheading font-weight-bold">
+          Disciplinas disponíveis
+        </vtoolbartitle-stub>
+        <vspacer-stub></vspacer-stub>
+        <vtoolbaritems-stub id="filtro-de-turmas" class="hidden-sm-and-down">
+          <filtrodeturma-stub></filtrodeturma-stub>
+        </vtoolbaritems-stub>
+      </vsystembar-stub>
+    </vflex-stub>
+    <vflex-stub tag="div" xs12="" md8="">
+      <disciplinasdisponiveis-stub></disciplinasdisponiveis-stub>
+    </vflex-stub>
+    <vflex-stub tag="div" xs12="" md4="">
+      <vcontainer-stub tag="div" class="px-2">
+        <salvaralteracoes-stub></salvaralteracoes-stub>
+        <minigradedehorario-stub></minigradedehorario-stub>
+      </vcontainer-stub>
+    </vflex-stub>
+  </vlayout-stub>
+</vcontainer-stub>
+`;

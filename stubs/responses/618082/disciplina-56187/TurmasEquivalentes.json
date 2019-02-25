@@ -1,0 +1,43 @@
+[
+  {
+     "codigo":865758,
+     "codigoUnico":"865758",
+     "tipoCargaHoraria":"Teórica",
+     "codigoTipoCargaHoraria":1,
+     "horariosParaExibicao":[
+        "Ter: 19:00 às 20:40"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Engenharia de Produção",
+     "campus":"Cristiano Machado",
+     "descricao":"EPR5BN-CMA",
+     "codigoPeriodicidade":1,
+     "vagas":26,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":89582,
+     "nomeDaDisciplina":"Gestão de Pessoas",
+     "eDoTurnoDoAluno": true
+  }
+]

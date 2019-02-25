@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componente de Cabeçalho Snapshot 1`] = `
+<vtoolbar-stub scrollthreshold="300" color="primary" dark="">
+  <!---->
+  <vtoolbartitle-stub id="titulo-cabecalho">
+    XPTO
+  </vtoolbartitle-stub>
+  <vspacer-stub></vspacer-stub>
+  <!---->
+  <!---->
+</vtoolbar-stub>
+`;

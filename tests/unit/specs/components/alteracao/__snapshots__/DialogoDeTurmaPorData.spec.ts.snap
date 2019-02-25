@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componente de diálogo de turma por data Snapshot 1`] = `
+<div id="dialogo-de-turma-por-data">
+  <p class="body-2 mb-0">
+    Cálculo
+  </p>
+  <p class="body-2 pt-0">
+    Turma: Turma
+  </p>
+  <div>
+    <p class="body-2">
+      Segunda-feira:
+    </p>
+    <ul class="pl-0 mb-3">
+      <li class="body-1">
+        Segunda 13 horas
+      </li>
+    </ul>
+  </div>
+</div>
+`;

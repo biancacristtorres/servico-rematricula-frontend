@@ -1,0 +1,81 @@
+#ALESSANDRA
+- request:
+    url: ^/api/AuthFake$
+    method: POST
+    post: "grant_type=password&scope=(.+)&username=618082&password=618082"
+  response:
+    headers:
+      content-type: application/json
+    file: ../responses/618082/AuthFake.json
+#RAFAELA
+- request:
+    url: ^/api/AuthFake$
+    method: POST
+    post: "grant_type=password&scope=(.+)&username=654654&password=654654"
+  response:
+    headers:
+      content-type: application/json
+    file: ../responses/654654/AuthFake.json
+#RICARDO
+- request:
+    url: ^/api/AuthFake$
+    method: POST
+    post: "grant_type=password&scope=(.+)&username=2002699&password=2002699"
+  response:
+    headers:
+      content-type: application/json
+    file: ../responses/2002699/AuthFake.json
+#JOAO
+- request:
+    url: ^/api/AuthFake$
+    method: POST
+    post: "grant_type=password&scope=(.+)&username=1310245&password=1310245"
+  response:
+    headers:
+      content-type: application/json
+    file: ../responses/1310245/AuthFake.json
+#MATEUS
+- request:
+    url: ^/api/AuthFake$
+    method: POST
+    post: "grant_type=password&scope=(.+)&username=460761&password=460761"
+  response:
+    headers:
+      content-type: application/json
+    file: ../responses/460761/AuthFake.json
+#JORGE
+- request:
+    url: ^/api/AuthFake$
+    method: POST
+    post: "grant_type=password&scope=(.+)&username=2279075&password=2279075"
+  response:
+    headers:
+      content-type: application/json
+    file: ../responses/2279075/AuthFake.json
+#SABRINA
+- request:
+    url: ^/api/AuthFake$
+    method: POST
+    post: "grant_type=password&scope=(.+)&username=2396301&password=2396301"
+  response:
+    headers:
+      content-type: application/json
+    file: ../responses/2396301/AuthFake.json
+#MANUELA
+- request:
+    url: ^/api/AuthFake$
+    method: POST
+    post: "grant_type=password&scope=(.+)&username=2279688&password=2279688"
+  response:
+    headers:
+      content-type: application/json
+    file: ../responses/2279688/AuthFake.json
+#AMANDA
+- request:
+    url: ^/api/AuthFake$
+    method: POST
+    post: "grant_type=password&scope=(.+)&username=594134&password=594134"
+  response:
+    headers:
+      content-type: application/json
+    file: ../responses/594134/AuthFake.json

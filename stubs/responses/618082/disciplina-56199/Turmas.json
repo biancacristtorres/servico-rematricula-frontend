@@ -1,0 +1,84 @@
+[
+  {
+     "codigo":863527,
+     "codigoUnico":"863527",
+     "tipoCargaHoraria":"Teórica",
+     "codigoTipoCargaHoraria":1,
+     "horariosParaExibicao":[
+        "Ter: 19:00 às 19:49",
+        "Ter: 19:00 às 20:40",
+        "Ter: 19:50 às 20:40",
+        "Qui: 20:55 às 21:44",
+        "Qui: 20:55 às 22:34",
+        "Qui: 21:45 às 22:34"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        },
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        },
+        {
+           "codigoDiaSemana":5,
+           "descricaoDiaSemana":"Quinta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Administração",
+     "campus":"Cristiano Machado",
+     "descricao":"AEM4BN-CMA",
+     "codigoPeriodicidade":1,
+     "vagas":19,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":56199,
+     "nomeDaDisciplina":"Negócios Internacionais",
+     "eDoTurnoDoAluno": false
+  }
+]

@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componente de MiniGradeDeHorario snapshot 1`] = `
+<div>
+  <div class="container-tabela">
+    <vcontainer-stub tag="div" class="container-grade box pa-0 caption">
+      <vlayout-stub tag="div" row="">
+        <vflex-stub tag="div" xs2="" class="display-table celula">
+          <div class="display-cell">
+
+          </div>
+        </vflex-stub>
+        <vflex-stub tag="div" xs2="" class="display-table celula">
+          <div class="display-cell">
+            S
+          </div>
+        </vflex-stub>
+        <vflex-stub tag="div" xs2="" class="display-table celula">
+          <div class="display-cell">
+            T
+          </div>
+        </vflex-stub>
+        <vflex-stub tag="div" xs2="" class="display-table celula">
+          <div class="display-cell">
+            Q
+          </div>
+        </vflex-stub>
+        <vflex-stub tag="div" xs2="" class="display-table celula">
+          <div class="display-cell">
+            Q
+          </div>
+        </vflex-stub>
+        <vflex-stub tag="div" xs2="" class="display-table celula">
+          <div class="display-cell">
+            S
+          </div>
+        </vflex-stub>
+        <vflex-stub tag="div" xs2="" class="display-table celula">
+          <div class="display-cell">
+            S
+          </div>
+        </vflex-stub>
+      </vlayout-stub>
+      <vlayout-stub tag="div" row="" align-space-around="" justify-center="" fill-height="" class="align-content-center">
+        <vflex-stub tag="div" text-xs-center="" xs2="" class="celula">
+          <vlayout-stub tag="div" align-center="" justify-center="" row="" fill-height="">
+            <div>
+              20:55h
+            </div>
+          </vlayout-stub>
+        </vflex-stub>
+        <vflex-stub tag="div" xs2="" class="celula">
+          <vlayout-stub tag="div" row="" wrap="" align-center="" justify-center="" fill-height="" class="pa-0">
+            <vflex-stub tag="div" xs12="" align-center="" class="text-xs-center pa-1">
+              <div style="width: 10px; height: 10px; background: rgb(12, 189, 133); border-radius: 50%; margin: 0px auto;"></div>
+            </vflex-stub>
+          </vlayout-stub>
+        </vflex-stub>
+        <vflex-stub tag="div" xs2="" class="celula">
+          <vlayout-stub tag="div" row="" wrap="" align-center="" justify-center="" fill-height="" class="pa-0">
+            <vflex-stub tag="div" xs12="" align-center="" class="text-xs-center pa-1">
+              <div style="width: 10px; height: 10px; background: rgb(12, 189, 133); border-radius: 50%; margin: 0px auto;"></div>
+            </vflex-stub>
+          </vlayout-stub>
+        </vflex-stub>
+      </vlayout-stub>
+    </vcontainer-stub>
+  </div>
+</div>
+`;

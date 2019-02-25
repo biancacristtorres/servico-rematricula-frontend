@@ -1,0 +1,15 @@
+- request:
+    url: ^/api/condicoesEspeciais$
+    query:
+      codigoAluno: '([0-9]+)'
+    headers:
+      authorization: ([0-9]+)
+  response:
+    headers:
+      content-type: application/json
+    file: ../responses/<% headers.authorization[1] %>/CondicoesEspeciais.json
+- request:
+    url: ^/api/condicoesEspeciais$
+    method: POST
+  response:
+    status: 200

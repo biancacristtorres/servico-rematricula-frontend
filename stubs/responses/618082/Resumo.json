@@ -1,0 +1,228 @@
+{
+  "horarios":[
+     {
+        "horaInicioFim":"19:00 - 19:49h",
+        "disciplinasPorDiaDeSemana":{
+           "2":[
+              {
+                 "codigoDisciplina":56203,
+                 "nomeDisciplina":"Gestão de Projetos",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"AEM4AN-ESB",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Estoril",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "3":null,
+           "4":[
+              {
+                 "codigoDisciplina":18486,
+                 "nomeDisciplina":"Gestão Integrada da Cadeia de Suprimento",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"AEM4AN-ESA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Estoril",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "5":null,
+           "6":[
+              {
+                 "codigoDisciplina":18486,
+                 "nomeDisciplina":"Gestão Integrada da Cadeia de Suprimento",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"AEM4AN-ESA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Estoril",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "7":null
+        }
+     },
+     {
+        "horaInicioFim":"19:50 - 20:40h",
+        "disciplinasPorDiaDeSemana":{
+           "2":[
+              {
+                 "codigoDisciplina":56203,
+                 "nomeDisciplina":"Gestão de Projetos",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"AEM4AN-ESB",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Estoril",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "3":null,
+           "4":[
+              {
+                 "codigoDisciplina":18486,
+                 "nomeDisciplina":"Gestão Integrada da Cadeia de Suprimento",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"AEM4AN-ESA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Estoril",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "5":null,
+           "6":[
+              {
+                 "codigoDisciplina":18486,
+                 "nomeDisciplina":"Gestão Integrada da Cadeia de Suprimento",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"AEM4AN-ESA",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Estoril",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "7":null
+        }
+     },
+     {
+        "horaInicioFim":"20:55 - 21:44h",
+        "disciplinasPorDiaDeSemana":{
+           "2":[
+              {
+                 "codigoDisciplina":15266,
+                 "nomeDisciplina":"Administração Financeira",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"AEM4AN-ESB",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Estoril",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "3":null,
+           "4":[
+              {
+                 "codigoDisciplina":15266,
+                 "nomeDisciplina":"Administração Financeira",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"AEM4AN-ESB",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Estoril",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "5":null,
+           "6":[
+              {
+                 "codigoDisciplina":56200,
+                 "nomeDisciplina":"Gestão Tributária",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"AEM4AN-ESB",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Estoril",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "7":null
+        }
+     },
+     {
+        "horaInicioFim":"21:45 - 22:34h",
+        "disciplinasPorDiaDeSemana":{
+           "2":[
+              {
+                 "codigoDisciplina":15266,
+                 "nomeDisciplina":"Administração Financeira",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"AEM4AN-ESB",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Estoril",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "3":null,
+           "4":[
+              {
+                 "codigoDisciplina":15266,
+                 "nomeDisciplina":"Administração Financeira",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"AEM4AN-ESB",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Estoril",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "5":null,
+           "6":[
+              {
+                 "codigoDisciplina":56200,
+                 "nomeDisciplina":"Gestão Tributária",
+                 "codigoDisciplinaEquivalente":0,
+                 "nomeDisciplinaEquivalente":null,
+                 "descricaoTurma":"AEM4AN-ESB",
+                 "status":5,
+                 "descricaoTipoCargaHoraria":"Teórica",
+                 "campus":"Estoril",
+                 "ePorData":false,
+                 "datas":[
+
+                 ]
+              }
+           ],
+           "7":null
+        }
+     }
+  ]
+}

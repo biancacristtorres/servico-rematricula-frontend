@@ -1,0 +1,10 @@
+- request:
+    url: ^/api/AssinarContrato$
+    query:
+      codigoAluno: '([0-9]+)'
+    headers:
+      authorization: ([0-9]+)
+    method: PATCH
+  response:
+    status: 200
+    file: ../responses/<% headers.authorization[1] %>/AssinarContrato.json

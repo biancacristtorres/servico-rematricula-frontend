@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componente de Disciplinas Sem Horário snapshot 1`] = `
+<div class="container  box pa-0 pb-2">
+  <!---->
+  <div class="layout row wrap fill-width">
+    <div class="fill-width title">
+      <div class="caption pt-2 pb-2 mt-1 mb pl-4"><span class="subheading"> Disciplinas sem horário </span></div>
+      <hr class="v-divider theme--light">
+      <div class="v-list lista v-list--dense theme--light">
+        <div>
+          <div class="v-list__tile v-list__tile--avatar theme--light">
+            <div class="v-list__tile__avatar">
+              <div class="v-avatar" style="height: 40px; width: 40px;">
+                <div class="v-responsive v-image icone">
+                  <div class="v-responsive__content"></div>
+                </div>
+              </div>
+            </div>
+            <div class="v-list__tile__content"><span class="body-1">Disciplina Equivalente 1 (Eq. à Disciplina da Grade 1)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

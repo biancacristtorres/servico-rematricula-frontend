@@ -1,0 +1,57 @@
+[{
+  "name": "BuscarContratosLiberados",
+  "status": false
+},
+{
+  "name": "CachearEstatisticas",
+  "status": false
+},
+{
+  "name": "efetuarValidacoesAluno",
+  "status": false
+},
+{
+  "name": "efetuarValidacoesCadastro",
+  "status": true
+},
+{
+  "name": "ExibirFunilDeCampanha",
+  "status": true
+},
+{
+  "name": "exibirListaDisciplinasDisponiveis",
+  "status": false
+},
+{
+  "name": "exibirResumo",
+  "status": false
+},
+{
+  "name": "exibirTurmasDisponiveisPorDisciplina",
+  "status": false
+},
+{
+  "name": "FiltrarPrecoCandidatoDePrecoVeterano",
+  "status": true
+},
+{
+  "name": "habilitarInteresseDeDisciplinas",
+  "status": true
+},
+{
+  "name": "HabilitarTelaDeAlteracaoDeDisciplinas",
+  "status": false
+},
+{
+  "name": "InserirContingenciaNaPriceResponse",
+  "status": true
+},
+{
+  "name": "NaoUtilizarEntityFramework",
+  "status": false
+},
+{
+  "name": "utilizarBulkExtensions",
+  "status": true
+}
+]

@@ -1,0 +1,150 @@
+[
+  {
+     "codigo":887167,
+     "codigoUnico":"887167-887168",
+     "tipoCargaHoraria":"Ensino a Distância",
+     "horariosParaExibicao":[
+
+     ],
+     "horariosDeTurmaSemanal":[
+
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Engenharia Elétrica",
+     "campus":"Contagem",
+     "descricao":"EEL4BN-COA",
+     "vagas":52,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+        {
+           "codigo":887168,
+           "tipoCargaHoraria":"Prática",
+           "horariosParaExibicao":[
+
+           ],
+           "horariosDeTurmaSemanal":[
+
+           ],
+           "horariosDeTurmaPorData":[
+              {
+                 "codigoDiaSemana":3,
+                 "datasParaExibicao":[
+                    "26/02/2019 de 18:55:00 às 20:35:00",
+                    "19/03/2019 de 18:55:00 às 20:35:00",
+                    "02/04/2019 de 18:55:00 às 20:35:00",
+                    "16/04/2019 de 18:55:00 às 20:35:00",
+                    "30/04/2019 de 18:55:00 às 20:35:00",
+                    "14/05/2019 de 18:55:00 às 20:35:00",
+                    "04/06/2019 de 18:55:00 às 20:35:00",
+                    "18/06/2019 de 18:55:00 às 20:35:00",
+                    "09/07/2019 de 18:55:00 às 20:35:00"
+                 ],
+                 "datas":[
+                    {
+                       "data":"2019-02-26T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-02-26T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    },
+                    {
+                       "data":"2019-03-19T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-03-19T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    },
+                    {
+                       "data":"2019-04-02T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-04-02T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    },
+                    {
+                       "data":"2019-04-16T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-04-16T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    },
+                    {
+                       "data":"2019-04-30T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-04-30T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    },
+                    {
+                       "data":"2019-05-14T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-05-14T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    },
+                    {
+                       "data":"2019-06-04T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-06-04T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    },
+                    {
+                       "data":"2019-06-18T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-06-18T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    },
+                    {
+                       "data":"2019-07-09T00:00:00",
+                       "horaInicio":"18:55:00",
+                       "horaFim":"19:45:00"
+                    },
+                    {
+                       "data":"2019-07-09T00:00:00",
+                       "horaInicio":"19:45:00",
+                       "horaFim":"20:35:00"
+                    }
+                 ]
+              }
+           ],
+           "curso":"Engenharia Elétrica",
+           "campus":"Contagem",
+           "descricao":"EEL4BN-COA1",
+           "vagas":52,
+           "eTurmaPorData":true
+        }
+     ],
+     "codigoDaDisciplina":106635,
+     "codigoPeriodicidade": 1,
+     "eDoTurnoDoAluno": false
+  }
+]

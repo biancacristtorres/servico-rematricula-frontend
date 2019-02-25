@@ -1,0 +1,82 @@
+[  
+  {  
+     "codigo":88822,
+     "situacao":5,
+     "nome":"Desenho Arquitetônico",
+     "modulo":"4B",
+     "eDisciplinaEletiva": false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {  
+     "codigo":88827,
+     "situacao":5,
+     "nome":"Geologia",
+     "modulo":"4B",
+     "eDisciplinaEletiva": false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {  
+     "codigo":88925,
+     "situacao":5,
+     "nome":"Projeto Interdisciplinar 4B",
+     "modulo":"4B",
+     "eDisciplinaEletiva": false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {  
+     "codigo":88823,
+     "situacao":5,
+     "nome":"Resistência dos Materiais",
+     "modulo":"4B",
+     "eDisciplinaEletiva": false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {  
+     "codigo":57494,
+     "situacao":5,
+     "nome":"Teoria das Estruturas I",
+     "modulo":"4B",
+     "eDisciplinaEletiva": false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {  
+     "codigo":57488,
+     "situacao":1,
+     "nome":"Equações Diferenciais",
+     "modulo":"4A",
+     "eDisciplinaEletiva": false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {  
+     "codigo":66262,
+     "situacao":1,
+     "nome":"Fenômenos de Transporte",
+     "modulo":"4A",
+     "eDisciplinaEletiva": false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {  
+     "codigo":104017,
+     "situacao":1,
+     "nome":"Física Termodinâmica, Ótica e Ondas",
+     "modulo":"4A",
+     "eDisciplinaEletiva": false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {  
+     "codigo":88883,
+     "situacao":1,
+     "nome":"Laboratório de Aprendizagem Integrada 2A",
+     "modulo":"2A",
+     "eDisciplinaEletiva": false,
+     "possuiEquivalenciaDoisPorUm": false
+  },
+  {
+     "codigo": 66228,
+     "situacao": 1,
+     "nome": "Geometria Analítica e Álgebra Linear",
+     "modulo": "2A",
+     "eDisciplinaEletiva": false,
+     "possuiEquivalenciaDoisPorUm": false
+  }
+]

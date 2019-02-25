@@ -1,0 +1,56 @@
+[  
+  {  
+     "codigo":887581,
+     "codigoUnico":"887581",
+     "tipoCargaHoraria":"Teórica",
+     "codigoTipoCargaHoraria":1,
+     "horariosParaExibicao":[  
+        "Ter: 19:00 às 20:40",
+        "Ter: 20:55 às 22:34"
+     ],
+     "horariosDeTurmaSemanal":[  
+        {  
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T19:00:00",
+           "horaFim":"0001-01-01T19:49:00"
+        },
+        {  
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T19:50:00",
+           "horaFim":"0001-01-01T20:40:00"
+        },
+        {  
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {  
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[  
+
+     ],
+     "curso":"Administração",
+     "campus":"Estoril",
+     "descricao":"AEMELVN-ESA",
+     "codigoPeriodicidade":1,
+     "vagas":36,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[  
+
+     ],
+     "codigoDaDisciplina":30297,
+     "nomeDaDisciplina":"Administração de Startups",
+     "eDoTurnoDoAluno": true
+  }
+]

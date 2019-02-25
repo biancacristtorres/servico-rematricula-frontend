@@ -1,0 +1,11 @@
+- request:
+    url: ^/api/Disciplinas/([0-9]+)/TurmasDisciplina/Equivalente$
+    method: GET
+    query:
+      codigoDoAluno: '([0-9]+)'
+    headers:
+      authorization: ([0-9]+)
+  response:
+    headers:
+      content-type: application/json
+    file: ../responses/<% headers.authorization[1] %>/disciplina-<% url[1] %>/TurmasEquivalentes.json

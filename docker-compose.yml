@@ -1,0 +1,29 @@
+version: "2.1"
+
+services:
+  run_at:
+    command: npm run test:at
+    build:
+      context: .
+      dockerfile: Dockerfile.at
+    links:
+      - web_at
+      - stubs_at
+    environment:
+      - APP_URL=http://web_at:8000
+    volumes:
+      - ./tests/acceptance:/usr/src/app/tests/acceptance
+  web_at:
+    logging:
+      driver: "none"
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+    restart: always
+  stubs_at:
+    logging:
+      driver: "none"
+    build:
+      context: .
+      dockerfile: Dockerfile.stubs
+    restart: always

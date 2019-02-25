@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APP Snapshot 1`] = `
+<vapp-stub id="app">
+  <router-view></router-view>
+  <!---->
+</vapp-stub>
+`;

@@ -1,0 +1,5 @@
+- request:
+    url: ^/api/manifestarInteresse$
+    method: POST
+  response:
+    status: 200

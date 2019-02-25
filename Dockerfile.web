@@ -1,0 +1,30 @@
+# Build stage
+FROM node:alpine as build
+
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+# Install app dependencies
+COPY .npmrc /usr/src/app/
+COPY package.json /usr/src/app/
+COPY tsconfig.json /usr/src/app/
+RUN npm install
+
+# build package
+COPY . .
+RUN npm run build:at
+
+# Production
+FROM node:alpine
+
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+# Install app dependencies
+RUN npm install http-server-spa -g
+
+# Bundle app source
+COPY --from=build /usr/src/app/build/dist /usr/src/app/build/dist
+
+EXPOSE 8000
+CMD http-server-spa ./build/dist index.html 8000

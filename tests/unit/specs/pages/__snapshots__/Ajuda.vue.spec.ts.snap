@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Página Ajuda Snapshot 1`] = `
+<vcontainer-stub tag="div" bg="" fill-height="" grid-list-md="" text-xs-center="">
+  <vlayout-stub tag="div" row="" wrap="" align-center="">
+    <vflex-stub tag="div" class="display-1 grey--text">
+      Redirecionando...
+    </vflex-stub>
+  </vlayout-stub>
+</vcontainer-stub>
+`;

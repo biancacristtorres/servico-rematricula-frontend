@@ -1,0 +1,53 @@
+[
+  {
+     "codigo":849949,
+     "codigoUnico":"849949",
+     "tipoCargaHoraria":"Teórica",
+     "horariosParaExibicao":[
+        "Ter: 18:55 às 20:35",
+        "Qua: 18:55 às 20:35"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T18:55:00",
+           "horaFim":"0001-01-01T19:45:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T19:45:00",
+           "horaFim":"0001-01-01T20:35:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T18:55:00",
+           "horaFim":"0001-01-01T19:45:00"
+        },
+        {
+           "codigoDiaSemana":4,
+           "descricaoDiaSemana":"Quarta",
+           "horaInicio":"0001-01-01T19:45:00",
+           "horaFim":"0001-01-01T20:35:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Engenharia Mecânica",
+     "campus":"Contagem",
+     "descricao":"EME4BN-COA",
+     "vagas":40,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":57488,
+     "codigoPeriodicidade": 1,
+     "nomeDaDisciplina": "",
+     "eDoTurnoDoAluno": false
+  }
+]

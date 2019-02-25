@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Página de login Login invalido 1`] = `
+<vcontainer-stub tag="div" fluid="" fill-height="" grid-list-xl="">
+  <vlayout-stub tag="div" justify-center="" align-center="">
+    <vflex-stub tag="div" lg4="" md6="" sm8="" xs12="">
+      <vcard-stub raised="true" tag="div" class="pa-5">
+        <vform-stub>
+          <valert-stub icon="warning" outline="true" transition="scale-transition" color="error" class="my-4">
+            O R.A. ou senha preenchidos não foram encontrados no sistema. Favor corrigir e tentar novamente.
+          </valert-stub>
+          <vtextfield-stub data-vv-name="usuario" name="usuario" label="R.A." autocomplete="username" id="login-usuario"></vtextfield-stub>
+          <vtextfield-stub data-vv-name="senha" name="senha" label="Senha" type="password" autocomplete="current-password" id="login-senha"></vtextfield-stub>
+          <vcardactions-stub class="mt-4 justify-center pa-0">
+            <vbtn-stub activeclass="v-btn--active" block="true" large="true" tag="button" type="button" id="login-botao" class="primary">
+              Entrar
+            </vbtn-stub>
+          </vcardactions-stub>
+        </vform-stub>
+      </vcard-stub>
+    </vflex-stub>
+  </vlayout-stub>
+</vcontainer-stub>
+`;

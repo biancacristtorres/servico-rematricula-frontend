@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componente de Acoes snapshot 1`] = `
+<div class="container px-0 py-0">
+  <div class="layout row wrap">
+    <div class="flex mb-3 pr-2 xs12 md7">
+      <div class="mx-auto fill-height v-card v-card--flat theme--light">
+        <div class="v-card__title">
+          <div class="flex xs2"><i aria-hidden="true" class="v-icon mt-1 v-icon--left material-icons theme--light gray--text" style="font-size: 36px;">check</i></div>
+          <div class="flex xs8">
+            <p id="mensagem" class="text-xs-left ml-3 mb-0 mt-1 body-1 font-weight-light">Parabéns, sua rematrícula está confirmada e suas vagas estão garantidas.</p>
+          </div>
+          <div class="flex xs2"><span class="v-tooltip v-tooltip--bottom"><div class="v-tooltip__content" style="left: 0px; max-width: 300px; opacity: 0; top: 12px; z-index: 0; display: none;"> <span>
+                  Você garantiu vaga em todas as turmas confirmadas no quadro abaixo. ;)
+                </span></div><span><i aria-hidden="true" class="v-icon ml-3 
+                  mdi 
+                  mdi-information-outline
+                 theme--light" style="font-size: 28px;"></i></span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex mb-3 pr-2 xs12 md5">
+    <div class="layout align-center justify-center column fill-height">
+      <router-link class="mt-0 v-btn v-btn--block v-btn--depressed v-btn--router theme--light secondary" id="alterar-disciplinas">
+        <div class="v-btn__content">Alterar Disciplinas e Horários</div>
+      </router-link> <button type="button" class="my-0 v-btn v-btn--block v-btn--depressed theme--light primary" id="enviar-comprovante">
+        <div class="v-btn__content">Enviar Comprovante por E-mail</div>
+      </button>
+    </div>
+  </div>
+  <div class="v-snack v-snack--active v-snack--bottom">
+    <div class="v-snack__wrapper secondary">
+      <div class="v-snack__content">
+        Avalie sua rematrícula
+        <button type="button" class="v-btn v-btn--flat theme--light" id="clique-aqui">
+          <div class="v-btn__content">
+            Clique aqui
+            <div class="v-dialog__container" style="display: block;">
+              <div tabindex="-1" class="v-dialog__content" style="z-index: 0;">
+                <div class="v-dialog" style="width: 432px; display: none;">
+                  <div class="v-card theme--light">
+                    <div class="v-responsive v-image">
+                      <div class="v-responsive__content"></div>
+                    </div>
+                    <div class="pl-4 pr-4 pt-2 pb-2">
+                      <p class="text-xs-center pt-2 title text--grey">Você indicaria a nova rematrícula para um(a) amigo(a)?</p>
+                      <div class="layout text-xs-center row justify-space-between">
+                        <div class="flex xs2">
+                          <div class="v-responsive v-image" style="opacity: 0.4;">
+                            <div class="v-responsive__content"></div>
+                          </div>
+                        </div>
+                        <div class="flex xs2">
+                          <div class="v-responsive v-image" style="opacity: 0.4;">
+                            <div class="v-responsive__content"></div>
+                          </div>
+                        </div>
+                        <div class="flex xs2">
+                          <div class="v-responsive v-image" style="opacity: 0.4;">
+                            <div class="v-responsive__content"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="v-input v-input--selection-controls v-input--radio-group v-input--radio-group--row theme--light">
+                        <div class="v-input__control">
+                          <div class="v-input__slot" style="height: auto;">
+                            <div role="radiogroup" class="v-input--radio-group__input">
+                              <div class="container grid-list-md pa-0">
+                                <div class="layout row wrap justify-space-around">
+                                  <div class="flex xs1">
+                                    <div class="v-radio theme--light">
+                                      <div class="v-input--selection-controls__input"><input aria-checked="false" role="radio" type="radio" name="v-radio-25" value="1"><i aria-hidden="true" class="v-icon material-icons theme--light">radio_button_unchecked</i></div><label aria-hidden="true" class="v-label theme--light" style="left: 0px; position: relative;"></label>
+                                    </div> <span class="subheading radio-label">1</span>
+                                  </div>
+                                  <div class="flex xs1">
+                                    <div class="v-radio theme--light">
+                                      <div class="v-input--selection-controls__input"><input aria-checked="false" role="radio" type="radio" name="v-radio-25" value="2"><i aria-hidden="true" class="v-icon material-icons theme--light">radio_button_unchecked</i></div><label aria-hidden="true" class="v-label theme--light" style="left: 0px; position: relative;"></label>
+                                    </div> <span class="subheading radio-label">2</span>
+                                  </div>
+                                  <div class="flex xs1">
+                                    <div class="v-radio theme--light">
+                                      <div class="v-input--selection-controls__input"><input aria-checked="false" role="radio" type="radio" name="v-radio-25" value="3"><i aria-hidden="true" class="v-icon material-icons theme--light">radio_button_unchecked</i></div><label aria-hidden="true" class="v-label theme--light" style="left: 0px; position: relative;"></label>
+                                    </div> <span class="subheading radio-label">3</span>
+                                  </div>
+                                  <div class="flex xs1">
+                                    <div class="v-radio theme--light">
+                                      <div class="v-input--selection-controls__input"><input aria-checked="false" role="radio" type="radio" name="v-radio-25" value="4"><i aria-hidden="true" class="v-icon material-icons theme--light">radio_button_unchecked</i></div><label aria-hidden="true" class="v-label theme--light" style="left: 0px; position: relative;"></label>
+                                    </div> <span class="subheading radio-label">4</span>
+                                  </div>
+                                  <div class="flex xs1">
+                                    <div class="v-radio theme--light">
+                                      <div class="v-input--selection-controls__input"><input aria-checked="false" role="radio" type="radio" name="v-radio-25" value="5"><i aria-hidden="true" class="v-icon material-icons theme--light">radio_button_unchecked</i></div><label aria-hidden="true" class="v-label theme--light" style="left: 0px; position: relative;"></label>
+                                    </div> <span class="subheading radio-label">5</span>
+                                  </div>
+                                  <div class="flex xs1">
+                                    <div class="v-radio theme--light">
+                                      <div class="v-input--selection-controls__input"><input aria-checked="false" role="radio" type="radio" name="v-radio-25" value="6"><i aria-hidden="true" class="v-icon material-icons theme--light">radio_button_unchecked</i></div><label aria-hidden="true" class="v-label theme--light" style="left: 0px; position: relative;"></label>
+                                    </div> <span class="subheading radio-label">6</span>
+                                  </div>
+                                  <div class="flex xs1">
+                                    <div class="v-radio theme--light">
+                                      <div class="v-input--selection-controls__input"><input aria-checked="false" role="radio" type="radio" name="v-radio-25" value="7"><i aria-hidden="true" class="v-icon material-icons theme--light">radio_button_unchecked</i></div><label aria-hidden="true" class="v-label theme--light" style="left: 0px; position: relative;"></label>
+                                    </div> <span class="subheading radio-label">7</span>
+                                  </div>
+                                  <div class="flex xs1">
+                                    <div class="v-radio theme--light">
+                                      <div class="v-input--selection-controls__input"><input aria-checked="false" role="radio" type="radio" name="v-radio-25" value="8"><i aria-hidden="true" class="v-icon material-icons theme--light">radio_button_unchecked</i></div><label aria-hidden="true" class="v-label theme--light" style="left: 0px; position: relative;"></label>
+                                    </div> <span class="subheading radio-label">8</span>
+                                  </div>
+                                  <div class="flex xs1">
+                                    <div class="v-radio theme--light">
+                                      <div class="v-input--selection-controls__input"><input aria-checked="false" role="radio" type="radio" name="v-radio-25" value="9"><i aria-hidden="true" class="v-icon material-icons theme--light">radio_button_unchecked</i></div><label aria-hidden="true" class="v-label theme--light" style="left: 0px; position: relative;"></label>
+                                    </div> <span class="subheading radio-label">9</span>
+                                  </div>
+                                  <div class="flex xs1">
+                                    <div class="v-radio theme--light">
+                                      <div class="v-input--selection-controls__input"><input aria-checked="false" role="radio" type="radio" name="v-radio-25" value="10"><i aria-hidden="true" class="v-icon material-icons theme--light">radio_button_unchecked</i></div><label aria-hidden="true" class="v-label theme--light" style="left: 0px; position: relative;"></label>
+                                    </div> <span class="subheading radio-label">10</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="v-messages theme--light">
+                            <div class="v-messages__wrapper"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="v-input nps-observacoes pa-3 v-textarea v-text-field v-text-field--placeholder theme--light">
+                        <div class="v-input__control">
+                          <div class="v-input__slot">
+                            <div class="v-text-field__slot"><textarea name="nps-observacoes" placeholder="Comentário (opcional)" rows="4"></textarea></div>
+                          </div>
+                          <div class="v-text-field__details">
+                            <div class="v-messages theme--light">
+                              <div class="v-messages__wrapper"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <p class="text-xs-center pt-3"><button disabled="disabled" type="button" class="botao-enviar v-btn v-btn--disabled theme--light primary">
+                          <div class="v-btn__content">Enviar</div>
+                        </button></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </button></div>
+    </div>
+  </div>
+</div>
+</div>
+`;

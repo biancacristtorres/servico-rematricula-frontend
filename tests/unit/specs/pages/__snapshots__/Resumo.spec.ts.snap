@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Página de Resumo snapshot 1`] = `
+<vcontainer-stub tag="div">
+  <vlayout-stub tag="div" row="" wrap="" align-center="">
+    <vflex-stub tag="div" class="text-xs-center">
+      <acoes-stub></acoes-stub>
+      <gradedehorario-stub></gradedehorario-stub>
+      <disciplinassemhorario-stub></disciplinassemhorario-stub>
+    </vflex-stub>
+  </vlayout-stub>
+</vcontainer-stub>
+`;

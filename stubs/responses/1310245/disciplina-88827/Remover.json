@@ -1,0 +1,128 @@
+{
+  "horarios":[
+     {
+        "horaInicio":"18:55h",
+        "disciplinasPorDiaDeSemana":{
+           "2": null,
+           "3":[
+              {
+                 "codigoDisciplina": 57494,
+                 "nomeDisciplina": "Teoria das Estruturas I"
+              }
+           ],
+           "4":[
+              {
+                 "codigoDisciplina": 88822,
+                 "nomeDisciplina": "Desenho Arquitetônico"
+              }
+           ],
+           "5":[
+              {
+                 "codigoDisciplina": 88823,
+                 "nomeDisciplina": "Resistência dos Materiais"
+              }
+           ],
+           "6":[
+              {
+                 "codigoDisciplina": 88823,
+                 "nomeDisciplina": "Resistência dos Materiais"
+              }
+           ],
+           "7":null
+        }
+     },
+     {
+        "horaInicio":"19:45h",
+        "disciplinasPorDiaDeSemana":{
+           "2":null,
+           "3":[
+              {
+                 "codigoDisciplina": 57494,
+                 "nomeDisciplina": "Teoria das Estruturas I"
+              }
+           ],
+           "4":[
+              {
+                 "codigoDisciplina": 88822,
+                 "nomeDisciplina": "Desenho Arquitetônico"
+              }
+           ],
+           "5":[
+              {
+                 "codigoDisciplina": 88823,
+                 "nomeDisciplina": "Resistência dos Materiais"
+              }
+           ],
+           "6":[
+              {
+                 "codigoDisciplina": 88823,
+                 "nomeDisciplina": "Resistência dos Materiais"
+              }
+           ],
+           "7":null
+        }
+     },
+     {
+        "horaInicio":"20:55h",
+        "disciplinasPorDiaDeSemana":{
+           "2":null,
+           "3":[
+              {
+                 "codigoDisciplina": 57494,
+                 "nomeDisciplina": "Teoria das Estruturas I"
+              }
+           ],
+           "4":[
+              {
+                 "codigoDisciplina": 88822,
+                 "nomeDisciplina": "Desenho Arquitetônico"
+              }
+           ],
+           "5":[
+              {
+         "codigoDisciplina": 88925,
+                 "nomeDisciplina": "Projeto Interdisciplinar 4B"
+              }
+           ],
+           "6":[
+              {
+                 "codigoDisciplina": 88823,
+                 "nomeDisciplina": "Resistência dos Materiais"
+              }
+           ],
+           "7":null
+        }
+     },
+     {
+        "horaInicio":"21:45h",
+        "disciplinasPorDiaDeSemana":{
+           "2":null,
+           "3":[
+              {
+                 "codigoDisciplina": 57494,
+                 "nomeDisciplina": "Teoria das Estruturas I"
+              }
+           ],
+           "4":[
+              {
+                 "codigoDisciplina": 88822,
+                 "nomeDisciplina": "Desenho Arquitetônico"
+              }
+           ],
+           "5":[
+              {
+         "codigoDisciplina": 88925,
+                 "nomeDisciplina": "Projeto Interdisciplinar 4B"
+              }
+           ],
+           "6":[
+              {
+                 "codigoDisciplina": 88823,
+                 "nomeDisciplina": "Resistência dos Materiais"
+              }
+           ],
+           "7":null
+        }
+     }
+  ]
+}

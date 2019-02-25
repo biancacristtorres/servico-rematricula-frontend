@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componente de Diálogo Dinâmico Snapshot 1`] = `
+<vdialog-stub persistent="true" maxwidth="500" origin="center center" width="auto" scrollable="true" transition="dialog-transition">
+  <vcard-stub tag="div" id="dialogo-dinamico">
+    <vcardtitle-stub primarytitle="true" class="headline">
+
+    </vcardtitle-stub>
+    <vcardtext-stub>
+      <div id="componente-dinamico-dummy"></div>
+    </vcardtext-stub>
+    <vcardactions-stub>
+      <vspacer-stub></vspacer-stub>
+      <!---->
+      <!---->
+    </vcardactions-stub>
+  </vcard-stub>
+</vdialog-stub>
+`;

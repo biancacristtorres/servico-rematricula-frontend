@@ -1,0 +1,43 @@
+[
+  {
+     "codigo":863406,
+     "codigoUnico":"863406",
+     "tipoCargaHoraria":"Teórica",
+     "codigoTipoCargaHoraria":1,
+     "horariosParaExibicao":[
+        "Sex: 20:55 às 22:34"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":6,
+           "descricaoDiaSemana":"Sexta",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:44:00"
+        },
+        {
+           "codigoDiaSemana":6,
+           "descricaoDiaSemana":"Sexta",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:34:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Administração",
+     "campus":"Estoril",
+     "descricao":"AEM4AN-ESB",
+     "codigoPeriodicidade":1,
+     "vagas":33,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":0,
+     "eTurmaAtual":true,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":56200,
+     "nomeDaDisciplina":"Gestão Tributária",
+     "eDoTurnoDoAluno": true
+  }
+]

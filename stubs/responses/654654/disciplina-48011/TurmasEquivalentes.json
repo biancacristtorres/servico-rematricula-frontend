@@ -1,0 +1,43 @@
+[
+  {
+     "codigo":863257,
+     "codigoUnico":"863257",
+     "tipoCargaHoraria":"Teórica",
+     "codigoTipoCargaHoraria":1,
+     "horariosParaExibicao":[
+        "Ter: 20:55 às 22:35"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:45:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:35:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Serviço Social",
+     "campus":"Barro Preto",
+     "descricao":"SVS3AN-BPA",
+     "codigoPeriodicidade":1,
+     "vagas":-21,
+     "minimoParaConfirmacao":0,
+     "numeroDeReservas":81,
+     "eTurmaAtual":false,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":25343,
+     "nomeDaDisciplina":"Língua Brasileira de Sinais",
+     "eDoTurnoDoAluno": true
+  }
+]

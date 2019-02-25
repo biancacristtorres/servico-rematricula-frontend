@@ -1,0 +1,108 @@
+{
+  "horarios":[
+     {
+        "horaInicio":"19:00h",
+        "disciplinasPorDiaDeSemana":{
+           "2":[
+              {
+                 "codigoDisciplina":56203,
+                 "nomeDisciplina":"Gestão de Projetos"
+              }
+           ],
+           "3":null,
+           "4":[
+              {
+                 "codigoDisciplina":18486,
+                 "nomeDisciplina":"Gestão Integrada da Cadeia de Suprimento"
+              }
+           ],
+           "5":null,
+           "6":[
+              {
+                 "codigoDisciplina":18486,
+                 "nomeDisciplina":"Gestão Integrada da Cadeia de Suprimento"
+              }
+           ],
+           "7":null
+        }
+     },
+     {
+        "horaInicio":"19:50h",
+        "disciplinasPorDiaDeSemana":{
+           "2":[
+              {
+                 "codigoDisciplina":56203,
+                 "nomeDisciplina":"Gestão de Projetos"
+              }
+           ],
+           "3":null,
+           "4":[
+              {
+                 "codigoDisciplina":18486,
+                 "nomeDisciplina":"Gestão Integrada da Cadeia de Suprimento"
+              }
+           ],
+           "5":null,
+           "6":[
+              {
+                 "codigoDisciplina":18486,
+                 "nomeDisciplina":"Gestão Integrada da Cadeia de Suprimento"
+              }
+           ],
+           "7":null
+        }
+     },
+     {
+        "horaInicio":"20:55h",
+        "disciplinasPorDiaDeSemana":{
+           "2":[
+              {
+                 "codigoDisciplina":15266,
+                 "nomeDisciplina":"Administração Financeira"
+              }
+           ],
+           "3":null,
+           "4":[
+              {
+                 "codigoDisciplina":15266,
+                 "nomeDisciplina":"Administração Financeira"
+              }
+           ],
+           "5":null,
+           "6":[
+              {
+                 "codigoDisciplina":56200,
+                 "nomeDisciplina":"Gestão Tributária"
+              }
+           ],
+           "7":null
+        }
+     },
+     {
+        "horaInicio":"21:45h",
+        "disciplinasPorDiaDeSemana":{
+           "2":[
+              {
+                 "codigoDisciplina":15266,
+                 "nomeDisciplina":"Administração Financeira"
+              }
+           ],
+           "3":null,
+           "4":[
+              {
+                 "codigoDisciplina":15266,
+                 "nomeDisciplina":"Administração Financeira"
+              }
+           ],
+           "5":null,
+           "6":[
+              {
+                 "codigoDisciplina":56200,
+                 "nomeDisciplina":"Gestão Tributária"
+              }
+           ],
+           "7":null
+        }
+     }
+  ]
+}

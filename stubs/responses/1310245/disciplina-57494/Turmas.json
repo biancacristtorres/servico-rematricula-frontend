@@ -1,0 +1,53 @@
+[
+  {
+     "codigo":849841,
+     "codigoUnico":"849841",
+     "tipoCargaHoraria":"Teórica",
+     "horariosParaExibicao":[
+        "Ter: 18:55 às 20:35",
+        "Ter: 20:55 às 22:35"
+     ],
+     "horariosDeTurmaSemanal":[
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T18:55:00",
+           "horaFim":"0001-01-01T19:45:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T19:45:00",
+           "horaFim":"0001-01-01T20:35:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T20:55:00",
+           "horaFim":"0001-01-01T21:45:00"
+        },
+        {
+           "codigoDiaSemana":3,
+           "descricaoDiaSemana":"Terça",
+           "horaInicio":"0001-01-01T21:45:00",
+           "horaFim":"0001-01-01T22:35:00"
+        }
+     ],
+     "horariosDeTurmaPorData":[
+
+     ],
+     "curso":"Engenharia Civil",
+     "campus":"Contagem",
+     "descricao":"ECV4BN-COA",
+     "vagas":40,
+     "eTurmaAtual":true,
+     "eTurmaPorData":false,
+     "complementares":[
+
+     ],
+     "codigoDaDisciplina":57494,
+     "codigoPeriodicidade": 1,
+     "nomeDaDisciplina": "",
+     "eDoTurnoDoAluno": false
+  }
+]

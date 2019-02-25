@@ -1,0 +1,17 @@
+- request:
+    url: ^/api/Matricula/([0-9]+)/Disciplina/88822$
+    method: DELETE
+  response:
+    status: 404
+- request:
+    url: ^/api/Matricula/1310245/Disciplina/88827$
+    method: DELETE
+  response:
+    status: 200
+    file: ../responses/1310245/disciplina-88827/Remover.json
+- request:
+    url: ^/api/Matricula/([0-9]+)/Disciplina/([0-9]+)$
+    method: DELETE
+  response:
+    status: 200
+

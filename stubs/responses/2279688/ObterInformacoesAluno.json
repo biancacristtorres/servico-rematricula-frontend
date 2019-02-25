@@ -1,0 +1,21 @@
+{
+  "campus": "Estoril",
+  "codigoAluno": 2279688,
+  "codigoInstituicao": 1,
+  "codigoPeriodoLetivo": "3699",
+  "contratoEstaAssinado": false,
+  "contratoEstaLiberado": true,
+  "curso": "Biomedicina",
+  "email": "manuela@teste.com",
+  "estaNoSoftLaunch": true,
+  "instituicao": "Centro Universitário de Belo Horizonte",
+  "nomeSocial": "Manuela Faria Evangelista Lio Rocha",
+  "numeroMatricula": "11822140",
+  "periodoLetivo": "2019/1",
+  "possuiPendenciasDocumentacao": false,
+  "possuiPendenciasFinanceiras": false,
+  "regularidade": "Regular",
+  "telefone": "",
+  "codigoPeriodicidade": 1,
+  "codigoMarca": 1
+}

@@ -1,0 +1,21 @@
+{
+  "campus": "Pouso Alegre",
+  "codigoAluno": 2279075,
+  "codigoInstituicao": 11,
+  "codigoPeriodoLetivo": "3693",
+  "contratoEstaAssinado": false,
+  "contratoEstaLiberado": true,
+  "curso": "Arquitetura e Urbanismo",
+  "email": "jorge@teste.com",
+  "estaNoSoftLaunch": true,
+  "instituicao": "Faculdade Una de Pouso Alegre",
+  "nomeSocial": "Jorge André Pereira Afonso",
+  "numeroMatricula": "111820123",
+  "periodoLetivo": "2019/1",
+  "possuiPendenciasDocumentacao": false,
+  "possuiPendenciasFinanceiras": true,
+  "regularidade": "Regular",
+  "telefone": "",
+  "codigoPeriodicidade": 1,
+  "codigoMarca": 1
+}

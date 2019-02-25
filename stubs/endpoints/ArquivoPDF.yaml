@@ -1,0 +1,9 @@
+- request:
+    url: ^/api/ObterArquivoContrato$
+    query:
+      codigoAluno: '([0-9]+)'
+    method: GET
+  response:
+    status: 200
+    headers:
+      content-type: application/pdf

@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componente de GradeDeHorario snapshot 1`] = `
+<div class="pr-2">
+  <div class="container-tabela">
+    <div class="container box pa-0 caption">
+      <div class="layout row">
+        <div class="flex display-table xs2">
+          <div class="celula celula-cabecalho display-cell font-weight-bold">Horários</div>
+        </div>
+        <div class="flex display-table xs2">
+          <div class="celula celula-cabecalho display-cell font-weight-bold">Segunda</div>
+        </div>
+        <div class="flex display-table xs2">
+          <div class="celula celula-cabecalho display-cell font-weight-bold">Terça</div>
+        </div>
+        <div class="flex display-table xs2">
+          <div class="celula celula-cabecalho display-cell font-weight-bold">Quarta</div>
+        </div>
+        <div class="flex display-table xs2">
+          <div class="celula celula-cabecalho display-cell font-weight-bold">Quinta</div>
+        </div>
+        <div class="flex display-table xs2">
+          <div class="celula celula-cabecalho display-cell font-weight-bold">Sexta</div>
+        </div>
+        <div class="flex display-table xs2">
+          <div class="celula celula-cabecalho display-cell font-weight-bold">Sábado</div>
+        </div>
+      </div>
+      <!---->
+      <div class="layout row">
+        <div class="flex display-table xs2">
+          <div class="celula pt-2 display-cell font-weight-bold">19:00 - 19:50h</div>
+        </div>
+        <div class="flex xs2">
+          <div class="container pa-0 celula fill-height">
+            <div class="layout row wrap"></div>
+          </div>
+        </div>
+        <div class="flex xs2">
+          <div class="container pa-0 celula fill-height">
+            <div class="layout row wrap">
+              <div class="flex display-table xs12"><img style="width: 0px; height: 0px; position: relative; border-top: 16px solid #082e6d; border-right: 16px solid transparent;">
+                <div class="display-cell pa-2">
+                  <!---->
+                  <div class="celula-disciplina">
+                    <!---->
+                    <!---->
+                    <div><i aria-hidden="true" class="v-icon icone-turma-especial mdi mdi-book-open-page-variant theme--light grey--text text--darken-1" style="font-size: 16px;"></i></div>
+                  </div>
+                  <div class="display-table" style="table-layout: fixed; width: 100%;">
+                    <div class="display-cell">
+                      <p class="celula-disciplina">Laboratório (XXXXX)</p>
+                    </div>
+                  </div>
+                  <!---->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex xs2">
+          <div class="container pa-0 celula fill-height">
+            <div class="layout row wrap"></div>
+          </div>
+        </div>
+        <div class="flex xs2">
+          <div class="container pa-0 celula fill-height">
+            <div class="layout row wrap"></div>
+          </div>
+        </div>
+        <div class="flex xs2">
+          <div class="container pa-0 celula fill-height">
+            <div class="layout row wrap"></div>
+          </div>
+        </div>
+        <div class="flex xs2">
+          <div class="container pa-0 celula fill-height">
+            <div class="layout row wrap"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="text-xs-left pa-0 pt-2"><span class="body-2">Legenda:</span> <span class="legenda text-xs-left caption pl-3"><i aria-hidden="true" class="v-icon pr-1 material-icons theme--light green--text" style="font-size: 16px;">check</i>Disciplina Confirmada
+    </span> <span class="legenda text-xs-left caption pl-3"><i aria-hidden="true" class="v-icon pr-1 material-icons theme--light orange--text" style="font-size: 16px;">repeat</i>Aguardando Confirmação
+    </span> <span class="legenda text-xs-left caption pl-3"><i aria-hidden="true" class="v-icon pr-1 material-icons theme--light orange--text" style="font-size: 16px;">restore</i>Fila de Espera
+    </span> <span class="legenda text-xs-left caption pl-3"><i aria-hidden="true" class="v-icon pr-1 mdi mdi-book-open-page-variant theme--light grey--text text--darken-1" style="font-size: 16px;"></i>Turma Especial
+    </span></p>
+</div>
+`;

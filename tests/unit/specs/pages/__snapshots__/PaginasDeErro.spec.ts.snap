@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Páginas de erro snapshot ErroDeSistema 1`] = `<erro-stub titulo="Eita!" texto="Encontramos um problema no sistema mas estamos resolvendo agora mesmo. Não se preocupe, em breve tudo estará funcionando novamente." imagem="sistema-indisponivel"></erro-stub>`;
+
+exports[`Páginas de erro snapshot PaginaNaoEncontrada 1`] = `<erro-stub titulo="404" texto="A página que você procurou não existe" imagem="pagina-nao-encontrada" deveredirecionarparaosol="true"></erro-stub>`;
+
+exports[`Páginas de erro snapshot PendenciaAcademica 1`] = `<erro-stub titulo="Ops! Está faltando algo por aqui…" texto="Vimos que você está com alguma pendência acadêmica, favor entrar em contato com a secretaria virtual para regularizar a sua situação." imagem="pendencia-academica" deveredirecionarparaosol="true"></erro-stub>`;
+
+exports[`Páginas de erro snapshot PendenciaFinanceira 1`] = `<erro-stub titulo="Ops! Vimos que você possui valores em aberto." texto="Por isso, sua rematrícula está indisponível. Mas fique tranquilo! Acesse a tela inicial do SOL Aluno e converse com o EDU. Basta digitar “pendencia financeira”, assim conseguimos resolver juntos." imagem="pendencia-financeira" deveredirecionarparaosol="true"></erro-stub>`;
+
+exports[`Páginas de erro snapshot RematriculaNaoIniciada 1`] = `
+<erro-stub titulo="Ops!" texto="Estamos trabalhando em um novo programa de rematrícula para você. 
+Em breve iremos atender mais alunos, e você estará nessa jornada da transformação do país pela educação." imagem="soft-launch" deveredirecionarparaosol="true"></erro-stub>
+`;
+
+exports[`Páginas de erro snapshot SistemaIndisponivel 1`] = `<erro-stub titulo="Algo de errado não está certo…" texto="Aconteceu algo de errado, mas não se preocupe que já estamos tentando resolver. Clique no botão abaixo para retornar à pàgina inicial do SOL. " imagem="sistema-indisponivel" deveredirecionarparaosol="true"></erro-stub>`;
+
+exports[`Páginas de erro snapshot UsuarioNaoAutenticado 1`] = `<erro-stub titulo="Ops!" texto="Não estamos conseguinto te identificar. Aconteceu algo de errado no seu login. Realize seu login e tente novamente." imagem="usuario-nao-autenticado"></erro-stub>`;

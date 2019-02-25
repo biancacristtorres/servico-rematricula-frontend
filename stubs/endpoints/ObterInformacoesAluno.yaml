@@ -1,0 +1,8 @@
+- request:
+    url: ^/api/ObterInformacoesAluno$
+    headers:
+      authorization: ([0-9]+)
+  response:
+    headers:
+      content-type: application/json
+    file: ../responses/<% headers.authorization[1] %>/ObterInformacoesAluno.json
